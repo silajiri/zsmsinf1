@@ -58,9 +58,10 @@ const app = {
         document.querySelectorAll('.screen').forEach(el => el.classList.add('hidden'));
         document.getElementById(id).classList.remove('hidden');
         
-        // Zobrazit/skrýt help ikonu - viditelná pouze na login stránce
+        // Zobrazit help ikonu na login, výběr sad a žebříčku
         const helpIcon = document.getElementById('help-icon');
-        if (id === 'screen-login') {
+        const screensWithHelp = ['screen-login', 'screen-sets', 'screen-leaderboard'];
+        if (screensWithHelp.includes(id)) {
             helpIcon.style.display = 'flex';
         } else {
             helpIcon.style.display = 'none';
