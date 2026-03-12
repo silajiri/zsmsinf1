@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <title>Kvíz o internetu a bezpečnosti</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Kvíz pro 4. třídu ZŠ</h1>
+        <div id="user-display" class="hidden">Žák: <span id="current-username"></span></div>
+    </header>
+
+    <main id="app">
+        <!-- přihlašovací obrazovka -->
+        <section id="screen-login" class="screen">
+            <h2>Vítej v kvízu!</h2>
+            <p>Zadej svoje jméno (přezdívku):</p>
+            <input type="text" id="username-input" placeholder="Vaše jméno" maxlength="20">
+            <button class="big-btn primary" onclick="app.login()">Pokračovat</button>
+        </section>
+
+        <!-- výběr sady otázek -->
+        <section id="screen-sets" class="screen hidden">
+            <h2>Vyber sadu otázek</h2>
+            <div id="sets-container"></div>
+        </section>
+
+        <!-- samotný kvíz -->
+        <section id="screen-quiz" class="screen hidden">
+            <div id="question-container"></div>
+            <div id="answers-container"></div>
+            <button id="next-btn" class="hidden" onclick="app.nextQuestion()">Další otázka</button>
+        </section>
+
+        <!-- výsledek -->
+        <section id="screen-result" class="screen hidden">
+            <h2>Kvíz dokončen!</h2>
+            <p id="result-text"></p>
+            <button class="big-btn primary" onclick="app.showSets()">Zkusit jinou sadu</button>
+        </section>
+    </main>
+
+    <!-- Firebase SDK + konfigurace -->
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
