@@ -142,13 +142,13 @@ input[type="text"]:focus {
 }
 
 #question-container {
-    background: #f8f9fa;
+    background: #e3f2fd;
     padding: 1rem;
     border-radius: 8px;
     margin-bottom: 1rem;
     font-size: 1.1rem;
     color: #2c3e50;
-    border-left: 4px solid #3498db;
+    border-left: 4px solid #1976d2;
 }
 
 #answers-container {
@@ -156,6 +156,10 @@ input[type="text"]:focus {
     flex-direction: column;
     gap: 0.6rem;
     margin-bottom: 1.2rem;
+    background: #fff3e0;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #f57c00;
 }
 
 #answers-container label {
@@ -202,6 +206,8 @@ input[type="text"]:focus {
     padding: 1.2rem !important;
     font-size: 1.15rem !important;
     font-weight: 700 !important;
+    background: linear-gradient(135deg, #ffa726 0%, #f57c00 100%) !important;
+    color: #fff !important;
 }
 
 #result-text {

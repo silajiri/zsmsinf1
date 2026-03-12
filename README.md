@@ -1,43 +1,152 @@
-# Kvíz o internetu a bezpečnosti
+# 🎓 Internetový Kvíz – ZŠ a MŠ Lípa nad Orlicí
 
-Webová aplikace pro hodinu informatiky (4. třída ZŠ) s výběrem sady otázek a ukládáním výsledků.
+Webová aplikace pro hodinu informatiky (4. třída základní školy) zaměřená na otázky z tématu **Internet a bezpečnost na internetu**.
 
-## Hlavní funkce
-- přihlášení žáka podle jména/přezdívky
-- výběr sady otázek (každý set je samostatný seznam)
-- náhodné pořadí otázek i možností
-- po dokončení se výsledek uloží do Firestore (Firebase) – stačí doplnit `config.js`
+🌐 **Live aplikace:** [https://silajiri.github.io/zsmsinf1/](https://silajiri.github.io/zsmsinf1/)
 
-> Poznámka: samotný obsah sad (otázky) doplníme později.
+---
 
-## Struktura souborů
-- `index.html` – hlavní rozhraní s více obrazovkami (login, výběr sady, kvíz, výsledek)
-- `style.css` – styly pro nové komponenty
-- `script.js` – logika aplikace (správa sad, načítání, Firebase)
-- `config.js` – konfigurace Firebase (přidat vlastní údaje)
+## 📋 Hlavní funkce
 
-Výsledky ukládané do Firestore obsahují kromě jména žáka a skóre také název vybrané sady.
+### Přihlášení a výběr
+- ✅ Přihlášení žáka podle jména/přezdívky
+- ✅ Výběr sady otázek (Test 1, Test 2)
 
-## Přidání otázek
-V `script.js` je objekt `app.sets` obsahující klíče
-de sady a pole otázek. Každou otázku definujte jako:
+### Průběh kvízu
+- ✅ Náhodné pořadí otázek i odpovědí
+- ✅ Zobrazení počítadla otázek (Otázka X / Y)
+- ✅ Okamžitá zpětná vazba:
+  - 🟢 **Zelená** – správná odpověď
+  - 🔴 **Červená** – zvolená špatná odpověď
+  - 🟢 **Zelená** – správná odpověď (k nápravě)
 
-```js
+### Výsledky
+- ✅ Zobrazení skóre v procentech
+- ✅ Animovaný GIF podle výkonu:
+  - 🏆 **winner** – 76% a více správných
+  - 👍 **well_done** – 26–75% správných
+  - 😅 **looser** – méně než 25% správných
+- ✅ Uložení výsledků do Firebase Firestore
+
+### Žebříček
+- ✅ Zobrazení všech výsledků (jméno, skóre, sada otázek)
+- ✅ Seřazení podle nejnovějších výsledků
+- ✅ Přehledná tabulka
+
+---
+
+## 🛠 Technologie
+
+- **HTML5** – struktura aplikace
+- **CSS3** – moderní design s gradienty a responzivitou
+- **JavaScript** – logika kvízu
+- **Firebase Firestore** – ukládání výsledků
+- **GitHub Pages** – hostování aplikace
+
+---
+
+## 📁 Struktura souborů
+
+```
+zsmsinf1/
+├── index.html           # Hlavní stránka
+├── style.css            # Styly aplikace
+├── script.js            # Logika kvízu
+├── config.js            # Firebase konfigurace
+├── README.md            # Tato dokumentace
+├── data/
+│   ├── set1.json        # Sada otázek Test 1
+│   └── set2.json        # Sada otázek Test 2
+└── assets/
+    └── images/
+        ├── zsms_logo.png    # Logo školy
+        ├── winner_*.gif     # GIFy pro vítěze
+        ├── well_done_*.gif  # GIFy pro dobré výsledky
+        └── looser_*.gif     # GIFy pro nižší výsledky
+```
+
+---
+
+## 📝 Formát otázek
+
+Otázky jsou uložené v JSON souborech (`data/set1.json` a `data/set2.json`):
+
+```json
 {
-    question: "Text otázky",
-    answers: ["A","B","C","D"],
-    correct: 2  // index správné odpovědi ve výše uvedeném poli
+  "question": "Otázka?",
+  "answers": [
+    "Možnost A",
+    "Možnost B",
+    "Možnost C",
+    "Možnost D"
+  ],
+  "correct": 1
 }
 ```
 
-Když budete chtít přidat další sadu, přidejte nový klíč do `app.sets`.
+- `question` – text otázky
+- `answers` – pole **přesně 4** možností
+- `correct` – index správné odpovědi (0 = první, 1 = druhá, atd.)
 
-## Spuštění
-1. Otevřete `index.html` v prohlížeči (nebo spusťte jednoduchý lokální server, např. `python -m http.server`).
-2. Zadejte jméno, vyberte sadu a odpovídejte na otázky.
-3. Pokud je `config.js` správně vyplněn, výsledky se automaticky uloží na Firebase.
+---
 
+## 🚀 Jak spustit
 
-## Deployment
-Aplikace poběží zcela staticky a lze ji nasadit např. na GitHub Pages v repozitáři `zsmsinf1`.
+### Lokálně
+```bash
+# Jednoduše otevřete index.html v prohlížeči
+# nebo spusťte lokální server:
+python -m http.server
+# poté otevřete http://localhost:8000
+```
+
+### Online
+Aplikace je nasazena na GitHub Pages:  
+🌐 **[https://silajiri.github.io/zsmsinf1/](https://silajiri.github.io/zsmsinf1/)**
+
+---
+
+## 🔒 Bezpečnost
+
+- ✅ Firebase API klíč je omezen na doménu `silajiri.github.io`
+- ✅ Firestore databáze má nastavena pravidla zabezpečení:
+  - Kdokoli může **číst** výsledky (pro žebříček)
+  - Kdokoli může **přidat** nový výsledek
+  - **Nikdo** nemůže mazat ani upravovat existující výsledky
+
+---
+
+## 📊 Firebase Firestore
+
+Kolekce `results` obsahuje záznamy s:
+- `name` – jméno žáka
+- `score` – počet správných odpovědí
+- `total` – celkový počet otázek
+- `set` – název sady (Test 1 / Test 2)
+- `timestamp` – čas dokončení
+
+---
+
+## 🎯 Použití v hodinách
+
+1. Otevřete aplikaci: [https://silajiri.github.io/zsmsinf1/](https://silajiri.github.io/zsmsinf1/)
+2. Žáci si zapamatují nebo si přidají do záložek
+3. Každý si přihlásí svým jménem
+4. Vybere sadu otázek a absolvuje test
+5. Výsledky se automaticky uloží
+6. V menu si mohou prohlédnout **Žebříček** se všemi výsledky
+
+---
+
+## 📝 Poznámky pro výuku
+
+- Aplikace je **offline-ready** – po prvním načtení funguje i bez internetu
+- **Respondivní design** – funguje na PC, tabletu i mobilu
+- **Přátelské rozhraní** – vhodné pro 4. třídu
+- **Motivační prvky** – GIFy a žebříček povzbuzují soutěžení
+
+---
+
+**Verze:** 1.0  
+**Poslední aktualizace:** březen 2026
 
