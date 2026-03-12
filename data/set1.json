@@ -2,30 +2,30 @@
   {
     "question": "Co je to internet?",
     "answers": [
-      "Velké množství pocítacu propojených v síti",
+      "Velké množství počítačů propojených v síti",
       "Typ monitoru",
-      "Pocítacová hra",
-      "Znacka mobilu"
+      "Počítačová hra",
+      "Značka mobilu"
     ],
     "correct": 0
   },
   {
-    "question": "Jak vypadá silné a bezpecné heslo?",
+    "question": "Jak vypadá silné a bezpečné heslo?",
     "answers": [
       "Moje jméno",
       "12345",
-      "Kombinace velkých a malých písmen, císlic a znaku",
+      "Kombinace velkých a malých písmen, číslic a znaků",
       "Datum narození"
     ],
     "correct": 2
   },
   {
-    "question": "Komu smíš ríct své heslo?",
+    "question": "Komu smíš říct své heslo?",
     "answers": [
       "Nejlepšímu kamarádovi",
-      "Nikomu (krome rodicu)",
-      "Všem ve tríde",
-      "Cizímu cloveku v online hre"
+      "Nikomu (kromě rodičů)",
+      "Všem ve třídě",
+      "Cizímu člověku v online hře"
     ],
     "correct": 1
   },
@@ -33,27 +33,27 @@
     "question": "Co je to 'digitální stopa'?",
     "answers": [
       "Otisk prstu na obrazovce",
-      "Vše, co na internetu deláme, píšeme a sdílíme",
-      "Rozbitý pocítac",
+      "Vše, co na internetu děláme, píšeme a sdílíme",
+      "Rozbitý počítač",
       "Nová aplikace"
     ],
     "correct": 1
   },
   {
-    "question": "Který z techto údaju je osobní a nemel by se verejne sdílet?",
+    "question": "Který z těchto údajů je osobní a neměl by se veřejně sdílet?",
     "answers": [
       "Oblíbená barva",
-      "Adresa bydlište",
-      "Nejoblíbenejší jídlo",
-      "Znacka tvého kola"
+      "Adresa bydliště",
+      "Nejoblíbenější jídlo",
+      "Značka tvého kola"
     ],
     "correct": 1
   },
   {
-    "question": "Co bys mel/a udelat, když ti na internetu nekdo píše neco neslušného?",
+    "question": "Co bys měl/a udělat, když ti na internetu někdo píše něco neslušného?",
     "answers": [
-      "Napsat mu ješte horší nadávku",
-      "Ignorovat ho a ríct to dospelému",
+      "Napsat mu ještě horší nadávku",
+      "Ignorovat ho a říct to dospělému",
       "Poslat mu svou fotku",
       "Smazat si všechny hry"
     ],
@@ -63,8 +63,8 @@
     "question": "Co je to kyberšikana?",
     "answers": [
       "Hraní her s kamarády",
-      "Užívání internetu k ubližování, zesmešnování nebo zastrašování",
-      "Stahování písnicek",
+      "Užívání internetu k ubližování, zesměšňování nebo zastrašování",
+      "Stahování písniček",
       "Oprava rozbitého tabletu"
     ],
     "correct": 1
@@ -72,7 +72,7 @@
   {
     "question": "Co znamená slovo 'Netiketa'?",
     "answers": [
-      "Nálepka na pocítaci",
+      "Nálepka na počítači",
       "Pravidla slušného chování na internetu",
       "Druh internetového viru",
       "Rychlost internetu"
@@ -80,11 +80,11 @@
     "correct": 1
   },
   {
-    "question": "Smíš si domluvit osobní schuzku s nekým, koho znáš jen z internetu?",
+    "question": "Smíš si domluvit osobní schůzku s někým, koho znáš jen z internetu?",
     "answers": [
       "Ano, kdykoliv",
       "Jen pokud mi pošle fotku",
-      "Ne bez vedomí a doprovodu rodicu",
+      "Ne bez vědomí a doprovodu rodičů",
       "Ano, když mi slíbí dárek"
     ],
     "correct": 2
@@ -92,27 +92,27 @@
   {
     "question": "Co je to antivirus?",
     "answers": [
-      "Program, který cistí obrazovku",
-      "Program, který chrání pocítac pred viry",
+      "Program, který čistí obrazovku",
+      "Program, který chrání počítač před viry",
       "Internetová hra",
       "Typ klávesnice"
     ],
     "correct": 1
   },
   {
-    "question": "Mužeš verit úplne všemu, co si precteš na internetu?",
+    "question": "Můžeš věřit úplně všemu, co si přečteš na internetu?",
     "answers": [
       "Ano, na internetu je jen pravda",
-      "Ne, informace je potreba si overovat",
+      "Ne, informace je potřeba si ověřovat",
       "Ano, pokud je tam fotka",
       "Ano, když mi to pošle kamarád"
     ],
     "correct": 1
   },
   {
-    "question": "Kam si máš správne zapsat svá hesla?",
+    "question": "Kam si máš správně zapsat svá hesla?",
     "answers": [
-      "Do denícku",
+      "Do deníčku",
       "Na papírek pod klávesnici",
       "Nikam, máš si je pamatovat",
       "Do SMS zprávy kamarádovi"
@@ -123,57 +123,57 @@
     "question": "Co je to 'hoax'?",
     "answers": [
       "Zábavné video",
-      "Poplašná nebo lživá zpráva, která se šírí internetem",
-      "Nová sociální sít",
-      "Druh pocítacové myši"
+      "Poplašná nebo lživá zpráva, která se šíří internetem",
+      "Nová sociální síť",
+      "Druh počítačové myši"
     ],
     "correct": 1
   },
   {
-    "question": "K cemu slouží firewall?",
+    "question": "K čemu slouží firewall?",
     "answers": [
       "K rychlejšímu stahování",
       "K blokování škodlivých dat z internetu",
-      "K prehrávání videí",
-      "K psaní úkolu"
+      "K přehrávání videí",
+      "K psaní úkolů"
     ],
     "correct": 1
   },
   {
-    "question": "Co bys mel/a udelat, než na internetu na neco klikneš?",
+    "question": "Co bys měl/a udělat, než na internetu na něco klikneš?",
     "answers": [
-      "Zavrít oci",
-      "Porádne si precíst, co je tam napsáno",
-      "Rychle kliknout, at to nezmizí",
+      "Zavřít oči",
+      "Pořádně si přečíst, co je tam napsáno",
+      "Rychle kliknout, ať to nezmizí",
       "Vypnout monitor"
     ],
     "correct": 1
   },
   {
-    "question": "Která fotka na internet rozhodne nepatrí?",
+    "question": "Která fotka na internet rozhodně nepatří?",
     "answers": [
       "Fotka krajiny z výletu",
       "Moje nahá nebo intimní fotka",
       "Fotka mého nakresleného obrázku",
-      "Fotka psa na zahrade"
+      "Fotka psa na zahradě"
     ],
     "correct": 1
   },
   {
-    "question": "Jaké telefonní císlo je zdarma a pomuže ti, když máš na internetu trable?",
+    "question": "Jaké telefonní číslo je zdarma a pomůže ti, když máš na internetu trable?",
     "answers": [
       "150",
-      "116 111 (Linka bezpecí)",
+      "116 111 (Linka bezpečí)",
       "155",
       "112"
     ],
     "correct": 1
   },
   {
-    "question": "Proc se nemá používat jedno heslo pro všechny stránky?",
+    "question": "Proč se nemá používat jedno heslo pro všechny stránky?",
     "answers": [
       "Protože by se to pletlo",
-      "Aby se zlodej pri prozrazení jednoho hesla nedostal všude",
+      "Aby se zloděj při prozrazení jednoho hesla nedostal všude",
       "Stránky by se rozbily",
       "Není to zakázané"
     ],
@@ -182,39 +182,39 @@
   {
     "question": "Co je to 'kybergrooming'?",
     "answers": [
-      "Závod v online hre",
-      "Snaha cizího cloveka získat tvou duveru a vylákat te na schuzku",
-      "Vytvárení hezkých obrázku",
+      "Závod v online hře",
+      "Snaha cizího člověka získat tvou důvěru a vylákat tě na schůzku",
+      "Vytváření hezkých obrázků",
       "Druh antiviru"
     ],
     "correct": 1
   },
   {
-    "question": "Které heslo je nejbezpecnejší?",
+    "question": "Které heslo je nejbezpečnější?",
     "answers": [
       "heslo123",
       "Pepa2014",
-      "Slunicko!88*Modre",
+      "Sluníčko!88*Modré",
       "111111"
     ],
     "correct": 2
   },
   {
-    "question": "Když odcházíš od verejného pocítace (napr. v knihovne), co musíš udelat?",
+    "question": "Když odcházíš od veřejného počítače (např. v knihovně), co musíš udělat?",
     "answers": [
       "Vypnout monitor",
-      "Odhlásit se ze všech svých úctu",
-      "Nechat tam všechno otevrené",
+      "Odhlásit se ze všech svých účtů",
+      "Nechat tam všechno otevřené",
       "Jen odejít"
     ],
     "correct": 1
   },
   {
-    "question": "Mužeš na internetu zverejnit fotku kamaráda bez jeho dovolení?",
+    "question": "Můžeš na internetu zveřejnit fotku kamaráda bez jeho dovolení?",
     "answers": [
       "Ano, když jsme kamarádi",
       "Ano, když se mi ta fotka líbí",
-      "Ne, vždy potrebuji jeho souhlas",
+      "Ne, vždy potřebuji jeho souhlas",
       "Ano, když ji dám jen na Facebook"
     ],
     "correct": 2
@@ -222,7 +222,7 @@
   {
     "question": "Co je to 'netolismus'?",
     "answers": [
-      "Láska k prírode",
+      "Láska k přírodě",
       "Závislost na internetu a technologiích",
       "Druh klávesnice",
       "Program na psaní textu"
@@ -230,30 +230,30 @@
     "correct": 1
   },
   {
-    "question": "Co delat, když ti prijde e-mail s podezrelou prílohou od nekoho, koho neznáš?",
+    "question": "Co dělat, když ti přijde e-mail s podezřelou přílohou od někoho, koho neznáš?",
     "answers": [
-      "Hned ji otevrít",
-      "Preposlat ji všem kamarádum",
+      "Hned ji otevřít",
+      "Přeposlat ji všem kamarádům",
       "Neotevírat a e-mail smazat",
       "Uložit si ji na plochu"
     ],
     "correct": 2
   },
   {
-    "question": "Kno ti muže nejlépe pomoci, když se na internetu setkáš s necím strašidelným?",
+    "question": "Kdo ti může nejlépe pomoci, když se na internetu setkáš s něčím strašidelným?",
     "answers": [
-      "Cizí clovek v chatu",
-      "Rodice nebo ucitel",
-      "Nikdo mi nepomuže",
-      "Pocítacová hra"
+      "Cizí člověk v chatu",
+      "Rodiče nebo učitel",
+      "Nikdo mi nepomůže",
+      "Počítačová hra"
     ],
     "correct": 1
   },
   {
-    "question": "Muže tvá digitální stopa ovlivnit tvou budoucnost?",
+    "question": "Může tvá digitální stopa ovlivnit tvou budoucnost?",
     "answers": [
       "Ne, po týdnu se vše smaže",
-      "Ano, internet si veci pamatuje velmi dlouho",
+      "Ano, internet si věci pamatuje velmi dlouho",
       "Jen pokud budu slavný",
       "Ne, digitální stopa neexistuje"
     ],
@@ -263,24 +263,24 @@
     "question": "Co je to 'phishing'?",
     "answers": [
       "Chytání ryb u rybníka",
-      "Podvodná technika k vylákání hesel a údaju",
+      "Podvodná technika k vylákání hesel a údajů",
       "Druh internetového sportu",
-      "Pekná profilová fotka"
+      "Pěkná profilová fotka"
     ],
     "correct": 1
   },
   {
-    "question": "Co bys mel/a udelat, když vidíš, že se v online hre nekdo posmívá tvému kamarádovi?",
+    "question": "Co bys měl/a udělat, když vidíš, že se v online hře někdo posmívá tvému kamarádovi?",
     "answers": [
       "Taky se mu posmívat",
-      "Napsat to dospelému nebo to nahlásit správci hry",
+      "Napsat to dospělému nebo to nahlásit správci hry",
       "Hned hru vypnout a už nikdy nehrát",
-      "Nic, me se to netýká"
+      "Nic, mě se to netýká"
     ],
     "correct": 1
   },
   {
-    "question": "Jak se jmenuje onemocnení pátere z castého hrbení se nad mobilem?",
+    "question": "Jak se jmenuje onemocnění páteře z častého hrbení se nad mobilem?",
     "answers": [
       "Mobilní noha",
       "Esemeskový krk",
@@ -290,10 +290,10 @@
     "correct": 1
   },
   {
-    "question": "Co je bezpecnejší pro profilovou fotku místo tvého obliceje?",
+    "question": "Co je bezpečnější pro profilovou fotku místo tvého obličeje?",
     "answers": [
-      "Fotka obcanského prukazu",
-      "Obrázek zvírete nebo kreslená postavicka",
+      "Fotka občanského průkazu",
+      "Obrázek zvířete nebo kreslená postavička",
       "Fotka tvého domu",
       "Fotka tvé školy"
     ],

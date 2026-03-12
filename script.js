@@ -124,25 +124,45 @@ const app = {
             input.name = 'answer';
             input.value = item.idx; // index původní odpovědi
             input.addEventListener('change', () => {
+                // po výběru - ukaž feedback
+                app.showFeedback(item.idx, q.correct);
                 document.getElementById('next-btn').classList.remove('hidden');
             });
             label.appendChild(input);
             label.append(' ' + item.text);
             answersDiv.appendChild(label);
-            answersDiv.appendChild(document.createElement('br'));
         });
 
         document.getElementById('next-btn').classList.add('hidden');
     },
 
-    nextQuestion: () => {
-        const selected = document.querySelector('input[name="answer"]:checked');
-        if (!selected) return;
-        const chosenIdx = parseInt(selected.value, 10);
-        const currentQ = app.questions[app.currentIndex];
-        if (chosenIdx === currentQ.correct) {
+    showFeedback: (chosenIdx, correctIdx) => {
+        const labels = document.querySelectorAll('#answers-container label');
+        labels.forEach(label => {
+            const input = label.querySelector('input');
+            const idx = parseInt(input.value, 10);
+            
+            // Zakázat další výběr
+            input.disabled = true;
+            
+            if (idx === correctIdx) {
+                // Správná odpověď - zelená
+                label.classList.add('correct');
+                label.classList.remove('incorrect');
+            } else if (idx === chosenIdx && chosenIdx !== correctIdx) {
+                // Chybná odpověď - červená
+                label.classList.add('incorrect');
+                label.classList.remove('correct');
+            }
+        });
+        
+        // Zvýšit skóre pokud správně
+        if (chosenIdx === correctIdx) {
             app.score++;
         }
+    },
+
+    nextQuestion: () => {
         app.currentIndex++;
         if (app.currentIndex < app.questions.length) {
             app.showQuestion();
