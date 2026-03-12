@@ -1,62 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    max-width: 600px;
-    margin: 0 auto;
-    padding: 1rem;
-    background-color: #f5f5f5;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
     color: #333;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 header {
+    background: linear-gradient(135deg, #2c3e50 0%, #3498db 100%);
+    color: #fff;
+    padding: 2rem 1rem;
     text-align: center;
-    margin-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
 }
 
-#quiz-container {
-    background-color: #fff;
-    border: 1px solid #ccc;
-    padding: 1rem;
-    border-radius: 4px;
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
 }
 
-#answers {
-    list-style: none;
-    padding: 0;
+.logo {
+    height: 60px;
+    width: auto;
 }
 
-#answers li {
-    margin: 0.5rem 0;
+.header-title h1 {
+    font-size: 2rem;
+    margin-bottom: 0.25rem;
 }
 
-button {
-    padding: 0.5rem 1rem;
+.header-title p {
+    font-size: 0.95rem;
+    opacity: 0.9;
+}
+
+#user-display {
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    opacity: 0.85;
+}
+
+main {
+    flex: 1;
+    max-width: 700px;
+    margin: 2rem auto;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.screen {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+}
+
+.screen h2 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-size: 1.8rem;
+}
+
+.screen p {
+    margin-bottom: 1rem;
+    line-height: 1.6;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
     font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+#sets-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
 }
 
 .big-btn {
-    display: inline-block;
-    margin: 0.5rem 0;
-    padding: 0.75rem 1.5rem;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 0.75rem;
     font-size: 1.1rem;
     border: none;
-    border-radius: 4px;
+    border-radius: 6px;
     cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    font-weight: 600;
+}
+
+.big-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15);
 }
 
 .big-btn.primary {
-    background-color: #3498db;
+    background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
     color: #fff;
 }
 
 .big-btn.secondary {
-    background-color: #95a5a6;
+    background: linear-gradient(135deg, #27ae60 0%, #229954 100%);
     color: #fff;
 }
 
-.screen {
-    /* každá obrazovka bude přepínána pomocí třídy hidden */
+.back-btn {
+    background: linear-gradient(135deg, #95a5a6 0%, #7f8c8d 100%);
+    color: #fff;
+    padding: 0.7rem 1rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-bottom: 1.5rem;
+    font-size: 0.95rem;
+    transition: transform 0.2s;
+}
+
+.back-btn:hover {
+    transform: translateX(-3px);
+}
+
+#question-container {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    font-size: 1.15rem;
+    color: #2c3e50;
+    border-left: 4px solid #3498db;
+}
+
+#answers-container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+#answers-container label {
+    display: block;
+    padding: 1rem;
+    background: #f0f4f8;
+    border: 2px solid #e0e0e0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s;
+    user-select: none;
+}
+
+#answers-container label:hover {
+    background: #e8f4f8;
+    border-color: #3498db;
+}
+
+#answers-container input[type="radio"] {
+    margin-right: 0.75rem;
+    cursor: pointer;
+}
+
+#answers-container label:has(input:checked) {
+    background: #d4edff;
+    border-color: #3498db;
+    font-weight: 600;
+}
+
+#next-btn {
+    width: 100%;
+}
+
+#result-text {
+    background: #f0f8ff;
+    padding: 1.5rem;
+    border-radius: 8px;
+    border-left: 4px solid #27ae60;
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1.5rem;
+}
+
+table th, table td {
+    border: 1px solid #e0e0e0;
+    padding: 1rem;
+    text-align: left;
+}
+
+table th {
+    background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+    color: #fff;
+    font-weight: 600;
+}
+
+table tr:nth-child(even) {
+    background: #f9f9f9;
+}
+
+table tr:hover {
+    background: #f0f8ff;
 }
 
 .hidden {
     display: none;
+}
+
+footer {
+    background: #2c3e50;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    opacity: 0.9;
+}
+
+@media (max-width: 600px) {
+    .header-content {
+        gap: 1rem;
+    }
+
+    .logo {
+        height: 50px;
+    }
+
+    .header-title h1 {
+        font-size: 1.5rem;
+    }
+
+    .screen {
+        padding: 1.5rem;
+    }
+
+    main {
+        margin: 1rem auto;
+    }
 }

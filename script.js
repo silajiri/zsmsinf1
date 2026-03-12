@@ -6,23 +6,15 @@ let db;
 const app = {
     user: null,
     
-    // připravené sady otázek – zde se budou později doplňovat skutečné otázky
-    sets: {
-        "Internet": [
-            {
-                question: "Příkladová otázka – později upravte",
-                answers: ["Možnost A", "Možnost B", "Možnost C", "Možnost D"],
-                correct: 0
-            }
-        ],
-        "Bezpečnost": []
-    },
+    // sady otázek se načtou z JSON souborů
+    sets: {},
     
     questions: [],
     currentIndex: 0,
     score: 0,
+    currentSet: null,
 
-    init: () => {
+    init: async () => {
         // inicializace Firebase (pokud jsou SDK a config dostupné)
         if (typeof firebase !== 'undefined' && typeof firebaseConfig !== 'undefined') {
             try {
@@ -34,6 +26,31 @@ const app = {
             }
         } else {
             console.warn('⚠ Firebase není dostupné (chybí SDK nebo config). Výsledky nebudou ukládány.');
+        }
+        
+        // Načtení sad otázek z JSON souborů
+        await app.loadQuestionSets();
+    },
+
+    loadQuestionSets: async () => {
+        try {
+            const response1 = await fetch('data/set1.json');
+            const response2 = await fetch('data/set2.json');
+            
+            if (!response1.ok || !response2.ok) {
+                throw new Error('Nepodařilo se načíst JSON soubory');
+            }
+            
+            app.sets['Test 1'] = await response1.json();
+            app.sets['Test 2'] = await response2.json();
+            
+            console.log('✅ Sady otázek načteny');
+        } catch (e) {
+            console.error('Chyba při načítání sad otázek:', e);
+            app.sets = {
+                'Test 1': [],
+                'Test 2': []
+            };
         }
     },
 
@@ -64,6 +81,14 @@ const app = {
             btn.onclick = () => app.selectSet(setName);
             container.appendChild(btn);
         });
+        
+        // Přidat tlačítko pro žebříček
+        const leaderboardBtn = document.createElement('button');
+        leaderboardBtn.className = 'big-btn secondary';
+        leaderboardBtn.textContent = '🏆 Žebříček';
+        leaderboardBtn.onclick = () => app.showLeaderboard();
+        container.appendChild(leaderboardBtn);
+        
         app.showScreen('screen-sets');
     },
 
@@ -151,10 +176,50 @@ const app = {
         } catch (e) {
             console.error('Chyba při ukládání výsledku:', e);
         }
+    },
+
+    showLeaderboard: async () => {
+        if (!db) {
+            alert('Firebase není dostupné. Žebříček nelze načíst.');
+            return;
+        }
+        
+        try {
+            const snapshot = await db.collection('results')
+                .orderBy('timestamp', 'desc')
+                .limit(50)
+                .get();
+            
+            const tbody = document.getElementById('leaderboard-body');
+            tbody.innerHTML = '';
+            
+            let position = 1;
+            snapshot.forEach(doc => {
+                const data = doc.data();
+                const row = document.createElement('tr');
+                row.innerHTML = `
+                    <td>${position}</td>
+                    <td>${data.name || 'Neznámý'}</td>
+                    <td>${data.score} / ${data.total}</td>
+                    <td>${data.set || '?'}</td>
+                `;
+                tbody.appendChild(row);
+                position++;
+            });
+            
+            if (snapshot.empty) {
+                tbody.innerHTML = '<tr><td colspan="4" style="text-align:center">Zatím žádné výsledky</td></tr>';
+            }
+            
+            app.showScreen('screen-leaderboard');
+        } catch (e) {
+            console.error('Chyba při načítání žebříčku:', e);
+            alert('Chyba při načítání žebříčku.');
+        }
     }
 };
 
 // inicializace po načtení stránky
-window.addEventListener('DOMContentLoaded', () => {
-    app.init();
+window.addEventListener('DOMContentLoaded', async () => {
+    await app.init();
 });

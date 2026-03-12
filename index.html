@@ -2,12 +2,19 @@
 <html lang="cs">
 <head>
     <meta charset="UTF-8">
-    <title>Kvíz o internetu a bezpečnosti</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kvíz - ZŠ a MŠ Lípa nad Orlicí</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Kvíz pro 4. třídu ZŠ</h1>
+        <div class="header-content">
+            <img src="assets/images/zsms_logo.png" alt="Logo ZŠ" class="logo">
+            <div class="header-title">
+                <h1>Internetový Kvíz</h1>
+                <p>ZŠ a MŠ Lípa nad Orlicí</p>
+            </div>
+        </div>
         <div id="user-display" class="hidden">Žák: <span id="current-username"></span></div>
     </header>
 
@@ -38,13 +45,39 @@
             <h2>Kvíz dokončen!</h2>
             <p id="result-text"></p>
             <button class="big-btn primary" onclick="app.showSets()">Zkusit jinou sadu</button>
+            <button class="big-btn secondary" onclick="app.showLeaderboard()">Zobrazit žebříček</button>
+        </section>
+
+        <!-- žebříček -->
+        <section id="screen-leaderboard" class="screen hidden">
+            <button class="back-btn" onclick="app.showSets()">← zpět do menu</button>
+            <h2>🏆 Žebříček výsledků</h2>
+            <table id="leaderboard-table">
+                <thead>
+                    <tr>
+                        <th>Pořadí</th>
+                        <th>Jméno</th>
+                        <th>Skóre</th>
+                        <th>Sada</th>
+                    </tr>
+                </thead>
+                <tbody id="leaderboard-body"></tbody>
+            </table>
         </section>
     </main>
+
+    <footer>
+        <p>&copy; 2026 ZŠ a MŠ Lípa nad Orlicí | Internetový Kvíz</p>
+    </footer>
 
     <!-- Firebase SDK + konfigurace -->
     <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>
     <script src="config.js"></script>
     <script src="script.js"></script>
+
+    <footer>
+        <p>&copy; 2026 Základní škola a Mateřská škola Lípa nad Orlicí | Informatika 4. třída</p>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Co znamená pravidlo 'babiččina lednice'?",
+    "answers": [
+      "Na internetu sdílím jen to, co bych klidně dal na lednici u babičky",
+      "Internet je studený jako lednice",
+      "Všechno na internetu se po čase zkazí",
+      "Mám si na internetu psát recepty na jídlo"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Co je to 'dvoufázové ověření'?",
+    "answers": [
+      "Dva různé počítače",
+      "Přihlášení pomocí hesla a dalšího kódu (např. v SMS)",
+      "Psaní hesla dvakrát za sebou",
+      "Kontrola od dvou kamarádů"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Který virus zaznamenává vše, co napíšeš na klávesnici?",
+    "answers": [
+      "Reklama",
+      "Keylogger",
+      "Antivir",
+      "Monitor"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Co uděláš, když ti někdo v online hře nabízí herní peníze za tvé heslo?",
+    "answers": [
+      "Hned mu ho pošlu",
+      "Zkusím nejdřív chtít víc peněz",
+      "Heslo mu nedám a nahlásím ho jako podvodníka",
+      "Pošlu mu heslo kamaráda"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Co je to 'ransomware'?",
+    "answers": [
+      "Program na kreslení",
+      "Virus, který ti zamkne data a chce za ně zaplatit",
+      "Způsob rychlého psaní",
+      "Značka klávesnice"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Proč je nebezpečné posílat někomu své intimní fotky?",
+    "answers": [
+      "Může je poslat dál nebo mě jimi vydírat",
+      "Jsou moc velké a nejdou odeslat",
+      "Na fotkách vypadám špatně",
+      "Internet fotky neumí uložit"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Které heslo je nejrychleji prolomitelné?",
+    "answers": [
+      "Heslo!88*Modre",
+      "123456",
+      "MojeKockaMicka12",
+      "Husty*Internet*99"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Co bys měl/a udělat se starým tabletem, než ho prodáš?",
+    "answers": [
+      "Jen ho vypnout",
+      "Smazat z něj všechny své fotky a odhlásit se z účtů",
+      "Nechat ho tak, jak je",
+      "Zabalit ho do krabice"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Co je to 'stalking' na internetu?",
+    "answers": [
+      "Dlouhodobé sledování a obtěžování někoho online",
+      "Druh online sportu",
+      "Psaní úkolů přes internet",
+      "Hledání slev v e-shopech"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Můžeš věřit profilové fotce někoho, koho neznáš?",
+    "answers": [
+      "Ano, lidé na internet nelžou",
+      "Ano, fotka vypadá opravdově",
+      "Ne, kdokoli si může stáhnout cizí fotku a vydávat se za někoho jiného",
+      "Ano, pokud má hodně lajků"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Co je to 'spam'?",
+    "answers": [
+      "Důležitá zpráva od paní učitelky",
+      "Nevyžádaná a obtěžující reklama, která chodí do e-mailu",
+      "Druh internetové hry",
+      "Příspěvek od kamaráda"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Co dělat, když ti v aplikaci vyskočí okno, že jsi vyhrál/a nový iPhone?",
+    "answers": [
+      "Hned na to kliknout a vybrat si barvu",
+      "Poslat tam své jméno a adresu",
+      "Ignorovat to, je to podvod",
+      "Zavolat kamarádům, ať se taky zkusí vyhrát"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "K čemu slouží pravidlo zálohování '3-2-1'?",
+    "answers": [
+      "K odpočítávání startu rakety",
+      "K ochraně dat (3 kopie, na 2 zařízeních, 1 mimo domov)",
+      "K učení matematiky online",
+      "K nastavení rychlosti internetu"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Co je to 'fake news'?",
+    "answers": [
+      "Zprávy o celebritách",
+      "Záměrně vymyšlené lži, které se tváří jako skutečné zprávy",
+      "Nové zprávy ze sportu",
+      "Zprávy psané v angličtině"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Když ti někdo na internetu nadává, jaká je nejlepší reakce?",
+    "answers": [
+      "Napsat mu ještě víc nadávek",
+      "Vůbec mu neodpovídat a zablokovat si ho",
+      "Plakat u počítače",
+      "Najít si jeho adresu"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Proč si nemáš psát hesla na papírek k počítači?",
+    "answers": [
+      "Mohl by se ztratit",
+      "Může si ho přečíst kdokoli cizí a ukrást ti účet",
+      "Papír se v počítači může spálit",
+      "Není to hezké"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Co je to 'geolokace'?",
+    "answers": [
+      "Učení o kamenech",
+      "Údaj o tom, kde se přesně nacházíš ty nebo tvůj mobil",
+      "Typ internetového viru",
+      "Druh online mapy"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Můžeš se na internetu vydávat za někoho jiného (např. celebritu)?",
+    "answers": [
+      "Ano, je to zábava",
+      "Ano, nikomu to nevadí",
+      "Ne, je to nečestné a v mnoha případech zakázané",
+      "Ano, když mě nikdo nepozná"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Co je to 'cookies' na internetových stránkách?",
+    "answers": [
+      "Obrázky sušenek",
+      "Malé soubory, které si pamatují tvou návštěvu na webu",
+      "Programy na pečení",
+      "Dárek pro návštěvníky"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Která stránka je nejbezpečnější pro stahování aplikací?",
+    "answers": [
+      "Neznámý web s nápisem 'Zdarma'",
+      "Oficiální obchod (např. Google Play nebo App Store)",
+      "Odkaz z e-mailu od cizího člověka",
+      "Stránka, kterou mi doporučil anonym v chatu"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Co bys měl/a udělat, než nasdílíš fotku, na které je tvůj kamarád?",
+    "answers": [
+      "Nic, fotka je moje",
+      "Zeptat se kamaráda, jestli mu to nevadí a souhlasí s tím",
+      "Upravit mu tam legrační uši",
+      "Poslat ji nejdřív ostatním ze třídy"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Kdo je to 'predátor' na internetu?",
+    "answers": [
+      "Zvíře z online filmu",
+      "Člověk, který se snaží vylákat z dětí osobní údaje nebo schůzku",
+      "Velmi dobrý hráč online her",
+      "Uživatel s nejrychlejším internetem"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Co dělat, když tvůj kamarád v diskuzi někoho ošklivě uráží?",
+    "answers": [
+      "Přidat se k němu",
+      "Napsat mu, že se chová neslušně a ať toho nechá",
+      "Dát mu pod příspěvek 'To se mi líbí'",
+      "Jen se tomu smát"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Jak poznáš bezpečnou adresu webové stránky?",
+    "answers": [
+      "Má v adrese ikonku zamčeného zámku a začíná https://",
+      "Má hodně obrázků",
+      "Má v názvu slovo 'bezpečí'",
+      "Píšou tam, že jsou nejlepší"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Proč se nemáš přihlašovat ke svému e-mailu na veřejné Wi-Fi (např. v kavárně)?",
+    "answers": [
+      "Internet tam bývá pomalý",
+      "Někdo cizí by mohl 'odposlechnout' tvé heslo a ukrást ti ho",
+      "Baterka v mobilu by se vybila",
+      "Kavárny to nemají rády"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Co je nejdůležitější pravidlo bezpečného internetu?",
+    "answers": [
+      "Mít nejnovější mobil",
+      "Používat selský rozum a být opatrný",
+      "Být na internetu celý den",
+      "Mít co nejvíce kamarádů na Facebooku"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Co je to 'cyberstalking'?",
+    "answers": [
+      "Druhá úroveň ve hře",
+      "Dlouhodobé a nepříjemné pronásledování někoho na internetu",
+      "Psaní dopisu poštou",
+      "Hledání kamarádů ze školky"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Jak poznáš podezřelou zprávu?",
+    "answers": [
+      "Je v ní moc obrázků",
+      "Chce po mně peníze nebo heslo a vyhrožuje nebo slibuje výhru",
+      "Je napsaná hezkým písmem",
+      "Poslal mi ji spolužák"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Co znamená zkratka 'www'?",
+    "answers": [
+      "World Wide Web (světová pavučina)",
+      "Wait Wait Wait (počkej počkej počkej)",
+      "We Want Work (chceme práci)",
+      "Windows Web World (svět oken)"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Kam se obrátit, když ti na internetu někdo ubližuje a nevíš co dál?",
+    "answers": [
+      "Na Linku bezpečí nebo za dospělým, kterému věřím",
+      "Nikam, nikdo mi nepomůže",
+      "Napsat o tom do statusu na Facebook",
+      "Koupit si nový počítač"
+    ],
+    "correct": 0
+  }
+]
