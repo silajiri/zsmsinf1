@@ -249,6 +249,197 @@ table tr:hover {
     display: none;
 }
 
+/* Help ikona */
+.help-icon {
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    width: 50px;
+    height: 50px;
+    background: linear-gradient(135deg, #9c27b0 0%, #7b1fa2 100%);
+    color: #fff;
+    border-radius: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    transition: all 0.3s;
+    z-index: 100;
+}
+
+.help-icon:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.3);
+}
+
+/* Skryt ikonu když nejsme na login stránce */
+body > .help-icon {
+    display: none;
+}
+
+/* Help Modal */
+.help-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 200;
+    padding: 1rem;
+}
+
+.help-modal.hidden {
+    display: none;
+}
+
+.help-modal-content {
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    max-width: 700px;
+    width: 100%;
+    max-height: 80vh;
+    overflow-y: auto;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+    position: relative;
+}
+
+.help-modal-close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    font-size: 1.8rem;
+    cursor: pointer;
+    color: #999;
+    transition: color 0.2s;
+}
+
+.help-modal-close:hover {
+    color: #333;
+}
+
+.help-modal-content h2 {
+    color: #2c3e50;
+    margin-bottom: 1.5rem;
+    font-size: 1.6rem;
+}
+
+/* Taby */
+.help-tabs {
+    margin-bottom: 1.5rem;
+}
+
+#help-tabs-buttons {
+    display: flex;
+    gap: 0.5rem;
+    border-bottom: 2px solid #e0e0e0;
+    flex-wrap: wrap;
+}
+
+.help-tab-btn {
+    padding: 0.8rem 1.5rem;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    color: #666;
+    border-bottom: 3px solid transparent;
+    transition: all 0.2s;
+    font-weight: 500;
+}
+
+.help-tab-btn:hover {
+    color: #9c27b0;
+}
+
+.help-tab-btn.active {
+    color: #9c27b0;
+    border-bottom-color: #9c27b0;
+}
+
+#help-tabs-content {
+    min-height: 300px;
+}
+
+.help-tab-pane {
+    display: none;
+}
+
+.help-tab-pane.active {
+    display: block;
+    animation: fadeIn 0.3s;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.help-question {
+    margin-bottom: 1.5rem;
+    background: #f8f9fa;
+    padding: 1rem;
+    border-radius: 8px;
+    border-left: 4px solid #9c27b0;
+}
+
+.help-question-text {
+    font-weight: 600;
+    color: #2c3e50;
+    margin-bottom: 0.8rem;
+    font-size: 1rem;
+}
+
+.help-answer {
+    padding: 0.6rem 0.8rem;
+    margin: 0.3rem 0;
+    background: white;
+    border-left: 3px solid #ddd;
+    border-radius: 4px;
+    transition: all 0.2s;
+}
+
+.help-answer.correct {
+    background: #d4edda;
+    border-left-color: #28a745;
+    color: #155724;
+    font-weight: 600;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+    .help-icon {
+        bottom: 1.5rem;
+        right: 1.5rem;
+        width: 45px;
+        height: 45px;
+        font-size: 1.5rem;
+    }
+
+    .help-modal-content {
+        padding: 1.5rem;
+        max-height: 90vh;
+    }
+
+    #help-tabs-buttons {
+        gap: 0.25rem;
+    }
+
+    .help-tab-btn {
+        padding: 0.6rem 1rem;
+        font-size: 0.9rem;
+    }
+}
+
 footer {
     background: #2c3e50;
     color: #fff;

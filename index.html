@@ -76,6 +76,25 @@
         <p>&copy; 2026 ZŠ a MŠ Lípa nad Orlicí | Internetový Kvíz</p>
     </footer>
 
+    <!-- Ikona otazníku pro nápovědu (pouze na úvodní stránce) -->
+    <div id="help-icon" class="help-icon" onclick="app.openHelpModal()" title="Nápověda - prohlédni si otázky">?</div>
+
+    <!-- Modal s nápovědou -->
+    <div id="help-modal" class="help-modal hidden">
+        <div class="help-modal-content">
+            <button class="help-modal-close" onclick="app.closeHelpModal()">✕</button>
+            <h2>Nápověda - Otázky v testu</h2>
+            
+            <!-- Taby pro sady otázek -->
+            <div class="help-tabs">
+                <div id="help-tabs-buttons"></div>
+            </div>
+            
+            <!-- Obsah tab -->
+            <div id="help-tabs-content"></div>
+        </div>
+    </div>
+
     <!-- Firebase SDK + konfigurace -->
     <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-app.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.6.8/firebase-firestore.js"></script>

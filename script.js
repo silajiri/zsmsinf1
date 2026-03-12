@@ -57,6 +57,14 @@ const app = {
     showScreen: (id) => {
         document.querySelectorAll('.screen').forEach(el => el.classList.add('hidden'));
         document.getElementById(id).classList.remove('hidden');
+        
+        // Zobrazit/skrýt help ikonu - viditelná pouze na login stránce
+        const helpIcon = document.getElementById('help-icon');
+        if (id === 'screen-login') {
+            helpIcon.style.display = 'flex';
+        } else {
+            helpIcon.style.display = 'none';
+        }
     },
 
     login: () => {
@@ -267,6 +275,89 @@ const app = {
         } catch (e) {
             console.error('Chyba při načítání žebříčku:', e);
             alert('Chyba při načítání žebříčku.');
+        }
+    },
+
+    openHelpModal: () => {
+        const modal = document.getElementById('help-modal');
+        modal.classList.remove('hidden');
+        
+        // Pokud nejsou taby vykresleny, vykreslíme je
+        if (!document.querySelector('.help-tab-btn')) {
+            app.renderHelpTabs();
+        }
+    },
+
+    closeHelpModal: () => {
+        const modal = document.getElementById('help-modal');
+        modal.classList.add('hidden');
+    },
+
+    renderHelpTabs: () => {
+        const tabsButtons = document.getElementById('help-tabs-buttons');
+        const tabsContent = document.getElementById('help-tabs-content');
+        
+        tabsButtons.innerHTML = '';
+        tabsContent.innerHTML = '';
+        
+        let isFirst = true;
+        
+        // Vykreslení taba pro každou sadu otázek
+        Object.keys(app.sets).forEach(setName => {
+            // Tlačítko tabu
+            const btn = document.createElement('button');
+            btn.className = `help-tab-btn ${isFirst ? 'active' : ''}`;
+            btn.textContent = setName;
+            btn.onclick = () => app.switchHelpTab(setName);
+            tabsButtons.appendChild(btn);
+            
+            // Obsah tabu
+            const pane = document.createElement('div');
+            pane.className = `help-tab-pane ${isFirst ? 'active' : ''}`;
+            pane.id = `help-tab-${setName.replace(/\s+/g, '-')}`;
+            pane.setAttribute('data-set', setName);
+            
+            // Vykreslení otázek
+            const questions = app.sets[setName];
+            let html = '';
+            
+            questions.forEach((q, idx) => {
+                html += `<div class="help-question">
+                    <div class="help-question-text">${idx + 1}. ${q.question}</div>`;
+                
+                // Vykreslení odpovědí
+                q.answers.forEach((answer, ansIdx) => {
+                    const isCorrect = ansIdx === q.correct;
+                    html += `<div class="help-answer ${isCorrect ? 'correct' : ''}">
+                        ${isCorrect ? '✓ ' : '• '}${answer}
+                    </div>`;
+                });
+                
+                html += `</div>`;
+            });
+            
+            pane.innerHTML = html;
+            tabsContent.appendChild(pane);
+            
+            isFirst = false;
+        });
+    },
+
+    switchHelpTab: (setName) => {
+        // Deaktivace všech tlačítek a panelů
+        document.querySelectorAll('.help-tab-btn').forEach(btn => {
+            btn.classList.remove('active');
+        });
+        document.querySelectorAll('.help-tab-pane').forEach(pane => {
+            pane.classList.remove('active');
+        });
+        
+        // Aktivace vybraného tabu
+        event.target.classList.add('active');
+        const tabId = `help-tab-${setName.replace(/\s+/g, '-')}`;
+        const pane = document.getElementById(tabId);
+        if (pane) {
+            pane.classList.add('active');
         }
     }
 };
