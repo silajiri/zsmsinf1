@@ -98,11 +98,15 @@ const app = {
             alert('Tato sada zatím neobsahuje žádné otázky. Vyber jinou nebo přidej otázky.');
             return;
         }
-        app.currentSet = name; // zapamatovat si
-        // nakopírovat a promíchat
+        app.currentSet = name;
         app.questions = app.shuffle([...list]);
         app.currentIndex = 0;
         app.score = 0;
+        
+        // Nastavit počet otázek v počítadle
+        document.getElementById('current-q').textContent = 1;
+        document.getElementById('total-q').textContent = app.questions.length;
+        
         app.showQuestion();
         app.showScreen('screen-quiz');
     },
@@ -110,6 +114,9 @@ const app = {
     shuffle: (arr) => arr.sort(() => Math.random() - 0.5),
 
     showQuestion: () => {
+        // Aktualizovat počítadlo otázek
+        document.getElementById('current-q').textContent = app.currentIndex + 1;
+        
         const q = app.questions[app.currentIndex];
         document.getElementById('question-container').textContent = q.question;
         const answersDiv = document.getElementById('answers-container');
@@ -173,7 +180,32 @@ const app = {
 
     finishQuiz: () => {
         app.saveResult(app.score, app.questions.length);
-        let text = `Správně: ${app.score} z ${app.questions.length}`;
+        
+        // Vypočítat procento správných odpovědí
+        const percentage = (app.score / app.questions.length) * 100;
+        let category = '';
+        let maxGifs = 0;
+        
+        if (percentage >= 76) {
+            category = 'winner';
+            maxGifs = 4;
+        } else if (percentage >= 26) {
+            category = 'well_done';
+            maxGifs = 4;
+        } else {
+            category = 'looser';
+            maxGifs = 7;
+        }
+        
+        // Random GIF z kategorie
+        const randomNum = Math.floor(Math.random() * maxGifs) + 1;
+        const gifFileName = `${category}_${randomNum}.gif`;
+        const gifPath = `assets/images/${gifFileName}`;
+        
+        // Nastavit GIF
+        document.getElementById('result-gif').src = gifPath;
+        
+        let text = `Správně: ${app.score} z ${app.questions.length} (${percentage.toFixed(0)}%)`;
         if (app.currentSet) {
             text = `Sada: ${app.currentSet} – ` + text;
         }
