@@ -384,6 +384,53 @@ body > .help-icon {
     to { opacity: 1; }
 }
 
+/* Leaderboard tabs */
+.leaderboard-tabs {
+    margin-bottom: 1.5rem;
+}
+
+#leaderboard-tabs-buttons {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.leaderboard-tab-btn {
+    padding: 0.75rem 1.5rem;
+    background: #f0f0f0;
+    border: 2px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.2s;
+    flex: 1;
+    text-align: center;
+}
+
+.leaderboard-tab-btn:hover {
+    background: #e0e0e0;
+    border-color: #bbb;
+}
+
+.leaderboard-tab-btn.active {
+    background: #007bff;
+    color: white;
+    border-color: #007bff;
+}
+
+#leaderboard-tabs-content {
+    min-height: 300px;
+}
+
+.leaderboard-tab-pane {
+    display: none;
+}
+
+.leaderboard-tab-pane.active {
+    display: block;
+    animation: fadeIn 0.3s;
+}
+
 .help-question {
     margin-bottom: 1.5rem;
     background: #f8f9fa;
@@ -448,6 +495,31 @@ footer {
     margin-top: 2rem;
     font-size: 0.9rem;
     opacity: 0.9;
+}
+
+/* Tabulka s chybami */
+#mistakes-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+}
+
+#mistakes-table th,
+#mistakes-table td {
+    padding: 0.75rem;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+#mistakes-table th {
+    background: #f8f9fa;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+#mistakes-table td:nth-child(3) {
+    font-weight: 600;
+    color: #dc3545;
 }
 
 @media (max-width: 600px) {

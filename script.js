@@ -13,6 +13,7 @@ const app = {
     currentIndex: 0,
     score: 0,
     currentSet: null,
+    wrongAnswers: [], // sledování chybných odpovědí
 
     init: async () => {
         // inicializace Firebase (pokud jsou SDK a config dostupné)
@@ -111,6 +112,7 @@ const app = {
         app.questions = app.shuffle([...list]);
         app.currentIndex = 0;
         app.score = 0;
+        app.wrongAnswers = []; // resetovat sledování chybných odpovědí
         
         // Nastavit počet otázek v počítadle
         document.getElementById('current-q').textContent = 1;
@@ -175,6 +177,15 @@ const app = {
         // Zvýšit skóre pokud správně
         if (chosenIdx === correctIdx) {
             app.score++;
+        } else {
+            // Sledovat chybnou odpověď
+            const currentQuestion = app.questions[app.currentIndex];
+            app.wrongAnswers.push({
+                question: currentQuestion.question,
+                chosenAnswer: currentQuestion.answers[chosenIdx],
+                correctAnswer: currentQuestion.answers[correctIdx],
+                questionIndex: app.currentIndex
+            });
         }
     },
 
@@ -229,7 +240,8 @@ const app = {
                 name: app.user,
                 score: score,
                 total: total,
-                timestamp: firebase.firestore.FieldValue.serverTimestamp()
+                timestamp: firebase.firestore.FieldValue.serverTimestamp(),
+                wrongAnswers: app.wrongAnswers // uložit chybné odpovědi
             };
             if (app.currentSet) payload.set = app.currentSet;
             await db.collection('results').add(payload);
@@ -251,26 +263,22 @@ const app = {
                 .limit(50)
                 .get();
             
-            const tbody = document.getElementById('leaderboard-body');
-            tbody.innerHTML = '';
-            
-            let position = 1;
+            // Převedeme snapshot na pole a seřadíme dle úspěšnosti (score/total)
+            const results = [];
             snapshot.forEach(doc => {
                 const data = doc.data();
-                const row = document.createElement('tr');
-                row.innerHTML = `
-                    <td>${position}</td>
-                    <td>${data.name || 'Neznámý'}</td>
-                    <td>${data.score} / ${data.total}</td>
-                    <td>${data.set || '?'}</td>
-                `;
-                tbody.appendChild(row);
-                position++;
+                results.push({
+                    name: data.name || 'Neznámý',
+                    score: data.score,
+                    total: data.total,
+                    set: data.set || '?',
+                    percentage: data.total > 0 ? (data.score / data.total) * 100 : 0,
+                    wrongAnswers: data.wrongAnswers || []
+                });
             });
             
-            if (snapshot.empty) {
-                tbody.innerHTML = '<tr><td colspan="4" style="text-align:center">Zatím žádné výsledky</td></tr>';
-            }
+            // Vykreslit tabs pro žebříček
+            app.renderLeaderboardTabs(results);
             
             app.showScreen('screen-leaderboard');
         } catch (e) {
@@ -356,6 +364,186 @@ const app = {
         // Aktivace vybraného tabu
         event.target.classList.add('active');
         const tabId = `help-tab-${setName.replace(/\s+/g, '-')}`;
+        const pane = document.getElementById(tabId);
+        if (pane) {
+            pane.classList.add('active');
+        }
+    },
+
+    renderLeaderboardTabs: (results) => {
+        const tabsButtons = document.getElementById('leaderboard-tabs-buttons');
+        const tabsContent = document.getElementById('leaderboard-tabs-content');
+        
+        tabsButtons.innerHTML = '';
+        tabsContent.innerHTML = '';
+        
+        // Tab 1: Žebříček výsledků
+        const resultsBtn = document.createElement('button');
+        resultsBtn.className = 'leaderboard-tab-btn active';
+        resultsBtn.textContent = 'Žebříček';
+        resultsBtn.onclick = () => app.switchLeaderboardTab('results');
+        tabsButtons.appendChild(resultsBtn);
+        
+        const resultsPane = document.createElement('div');
+        resultsPane.className = 'leaderboard-tab-pane active';
+        resultsPane.id = 'leaderboard-tab-results';
+        tabsContent.appendChild(resultsPane);
+        
+        // Tab 2: Nejčastější chyby
+        const mistakesBtn = document.createElement('button');
+        mistakesBtn.className = 'leaderboard-tab-btn';
+        mistakesBtn.textContent = 'Nejčastější chyby';
+        mistakesBtn.onclick = () => app.switchLeaderboardTab('mistakes');
+        tabsButtons.appendChild(mistakesBtn);
+        
+        const mistakesPane = document.createElement('div');
+        mistakesPane.className = 'leaderboard-tab-pane';
+        mistakesPane.id = 'leaderboard-tab-mistakes';
+        tabsContent.appendChild(mistakesPane);
+        
+        // Vykreslit obsah tabů
+        app.renderResultsTab(results, resultsPane);
+        app.renderMistakesTab(results, mistakesPane);
+    },
+
+    renderResultsTab: (results, container) => {
+        // Seřadíme dle procentuální úspěšnosti sestupně
+        results.sort((a, b) => b.percentage - a.percentage);
+        
+        const table = document.createElement('table');
+        table.id = 'leaderboard-table';
+        table.innerHTML = `
+            <thead>
+                <tr>
+                    <th>Pořadí</th>
+                    <th>Jméno</th>
+                    <th>Skóre</th>
+                    <th>Sada</th>
+                </tr>
+            </thead>
+            <tbody id="leaderboard-body"></tbody>
+        `;
+        
+        const tbody = table.querySelector('#leaderboard-body');
+        
+        let position = 1;
+        results.forEach(result => {
+            const row = document.createElement('tr');
+            row.innerHTML = `
+                <td>${position}</td>
+                <td>${result.name}</td>
+                <td>${result.score} / ${result.total}</td>
+                <td>${result.set}</td>
+            `;
+            tbody.appendChild(row);
+            position++;
+        });
+        
+        if (results.length === 0) {
+            tbody.innerHTML = '<tr><td colspan="4" style="text-align:center">Zatím žádné výsledky</td></tr>';
+        }
+        
+        container.appendChild(table);
+    },
+
+    renderMistakesTab: (results, container) => {
+        // Spočítat nejčastější chyby
+        const mistakeCounts = {};
+        
+        results.forEach(result => {
+            if (result.wrongAnswers && result.wrongAnswers.length > 0) {
+                result.wrongAnswers.forEach(wrong => {
+                    const key = wrong.question;
+                    if (!mistakeCounts[key]) {
+                        mistakeCounts[key] = {
+                            question: wrong.question,
+                            count: 0,
+                            totalAttempts: 0,
+                            examples: []
+                        };
+                    }
+                    mistakeCounts[key].count++;
+                    mistakeCounts[key].totalAttempts++;
+                    
+                    // Uložit příklady chybných odpovědí (max 3)
+                    if (mistakeCounts[key].examples.length < 3) {
+                        mistakeCounts[key].examples.push({
+                            chosen: wrong.chosenAnswer,
+                            correct: wrong.correctAnswer
+                        });
+                    }
+                });
+            }
+        });
+        
+        // Převést na pole a seřadit sestupně podle počtu chyb
+        const sortedMistakes = Object.values(mistakeCounts)
+            .sort((a, b) => b.count - a.count)
+            .slice(0, 20); // Zobrazit top 20 nejčastějších chyb
+        
+        if (sortedMistakes.length === 0) {
+            container.innerHTML = '<p style="text-align: center; padding: 2rem;">Zatím žádné chyby k zobrazení</p>';
+            return;
+        }
+        
+        const table = document.createElement('table');
+        table.id = 'mistakes-table';
+        table.innerHTML = `
+            <thead>
+                <tr>
+                    <th>Pořadí</th>
+                    <th>Otázka</th>
+                    <th>Počet chyb</th>
+                    <th>Příklady chybných odpovědí</th>
+                </tr>
+            </thead>
+            <tbody id="mistakes-body"></tbody>
+        `;
+        
+        const tbody = table.querySelector('#mistakes-body');
+        
+        let position = 1;
+        sortedMistakes.forEach(mistake => {
+            const row = document.createElement('tr');
+            
+            // Zkrátit otázku pokud je příliš dlouhá
+            const shortQuestion = mistake.question.length > 100 
+                ? mistake.question.substring(0, 100) + '...' 
+                : mistake.question;
+            
+            // Vytvořit příklady chybných odpovědí
+            const examplesHtml = mistake.examples.map(example => 
+                `<div style="margin-bottom: 0.5rem; font-size: 0.9em;">
+                    <strong>Špatně:</strong> ${example.chosen}<br>
+                    <strong>Správně:</strong> ${example.correct}
+                </div>`
+            ).join('');
+            
+            row.innerHTML = `
+                <td>${position}</td>
+                <td title="${mistake.question}">${shortQuestion}</td>
+                <td>${mistake.count}</td>
+                <td>${examplesHtml || 'N/A'}</td>
+            `;
+            tbody.appendChild(row);
+            position++;
+        });
+        
+        container.appendChild(table);
+    },
+
+    switchLeaderboardTab: (tabName) => {
+        // Deaktivace všech tlačítek a panelů
+        document.querySelectorAll('.leaderboard-tab-btn').forEach(btn => {
+            btn.classList.remove('active');
+        });
+        document.querySelectorAll('.leaderboard-tab-pane').forEach(pane => {
+            pane.classList.remove('active');
+        });
+        
+        // Aktivace vybraného tabu
+        event.target.classList.add('active');
+        const tabId = `leaderboard-tab-${tabName}`;
         const pane = document.getElementById(tabId);
         if (pane) {
             pane.classList.add('active');
