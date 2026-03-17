@@ -1,0 +1,302 @@
+[
+  {
+    "question": "Podle obrázku obří krysy z Londýna, jakou měla mít tato krysa údajně délku?",
+    "answers": [
+      "50 centimetrů",
+      "1,2 metru",
+      "2 metry",
+      "80 centimetrů"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Jaká byla skutečná délka krysy na fotografii z německého Duisburgu?",
+    "answers": [
+      "1 metr",
+      "30 centimetrů",
+      "15 centimetrů",
+      "50 centimetrů"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Proč vypadá krysa na fotce s elektrikářem tak obrovská?",
+    "answers": [
+      "Je to pravá pravěká krysa",
+      "Je to hra s perspektivou – je blízko u objektivu",
+      "Je to nafukovací hračka",
+      "Elektrikář je velmi malý"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Co se stalo s fotkou Theresy Mayové v politické kampani?",
+    "answers": [
+      "Byla vyfocena černobíle",
+      "Byl použit výřez, aby malá skupinka lidí vypadala jako velký dav",
+      "Na fotku byl přidán ohňostroj",
+      "Fotka byla smazána"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Kolik aktivistů bylo ve skutečnosti na fotce s Theresou Mayovou před výřezem?",
+    "answers": [
+      "Asi 100",
+      "20–30",
+      "Přes tisíc",
+      "Jen jeden"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Co musel fotograf Jevgenij Chalděj na fotce s vlajkou v Berlíně odstranit špendlíkem?",
+    "answers": [
+      "Dým z komína",
+      "Druhé hodinky na ruce vojáka",
+      "Vojenskou helmu",
+      "Rozbité okno"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Proč musely být druhé hodinky (nebo kompas) z historické fotky v Berlíně odstraněny?",
+    "answers": [
+      "Nebyly hezké",
+      "Byly důkazem rabování",
+      "Nefungovaly",
+      "Byly moc moderní"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Jak lze na fotce 'selfie pilota' poznat, že nebyla vyfocena za letu?",
+    "answers": [
+      "Pilot nemá zapnutý pás",
+      "V jeho brýlích se odráží hangár a letiště",
+      "Letadlo nemá motor",
+      "Pilot se nesměje"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Kde byla fotka pilota vykloněného z okna letadla ve skutečnosti pořízena?",
+    "answers": [
+      "V oblacích",
+      "V hangáru nebo na letištní ploše",
+      "V dětském pokoji",
+      "V muzeu"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Co ve skutečnosti dělaly děti v muzeu na lavici před obrazem Noční hlídka?",
+    "answers": [
+      "Hrály hry",
+      "Hledaly v aplikaci informace o obrazech",
+      "Psaly SMS kamarádům",
+      "Spaly"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Proč byla fotka dětí s mobily v muzeu 'vytržena z kontextu'?",
+    "answers": [
+      "Protože děti v muzeu nebyly",
+      "Protože dělaly úkol od učitele, ale vypadalo to, že je obraz nezajímá",
+      "Protože mobily byly vypnuté",
+      "Protože obraz byl falešný"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Z jakých dvou fotek vznikla koláž vlaku s uprchlíky v Chebu?",
+    "answers": [
+      "Z fotky vlaku ČD a přeplněného vlaku z Indonésie",
+      "Z fotky metra a autobusu",
+      "Z fotky letadla a lodi",
+      "Z fotky nádraží a hřiště"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Jak se nazývá zpráva (jako ta o vlaku v Chebu), která má vyvolat strach a paniku?",
+    "answers": [
+      "Pohádka",
+      "Hoax (poplašná zpráva)",
+      "Reklama",
+      "Návod"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Jak se doopravdy jmenují pavouci z Iráku, o kterých koloval hoax?",
+    "answers": [
+      "Tarantule",
+      "Solifugy",
+      "Křižáci",
+      "Černé vdovy"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Jsou solifugy ('velbloudí pavouci') pro člověka smrtelně nebezpečné?",
+    "answers": [
+      "Ano, jsou nejjedovatější na světě",
+      "Ne, nemají žádný jed",
+      "Ano, ale jen v noci",
+      "Ano, pískají a koušou do krku"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Co je cílem e-mailů, které slibují peníze za každé přeposlání (např. o nemocné Alexandře)?",
+    "answers": [
+      "Opravdu vydělat peníze pro nemocné",
+      "Získat e-mailové adresy a šířit spam",
+      "Pobavit lidi",
+      "Naučit lidi matematiku"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Jak poznáš falešný inzerát na práci (např. v České televizi)?",
+    "answers": [
+      "Má moc barev",
+      "Nesedí písmo, okraje a odkaz vede na neexistující adresu",
+      "Je v něm fotka kameramana",
+      "Píšou tam, že hledají kompars"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Která barva pozadí je na oficiálním webu Jobs.cz (na rozdíl od bílé na podvrhu)?",
+    "answers": [
+      "Zelená",
+      "Světle modrá",
+      "Červená",
+      "Černá"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Jak se říká nepravdivé informaci, která vznikla omylem?",
+    "answers": [
+      "Dezinformace",
+      "Misinformace",
+      "Malinformace",
+      "Fakt"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Jak se říká pravdivé informaci, která je ale použita s úmyslem někomu ublížit?",
+    "answers": [
+      "Misinformace",
+      "Malinformace",
+      "Dezinformace",
+      "Pravda"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Pálka a míček stojí 110 Kč. Pálka je o 100 Kč dražší. Kolik stojí míček?",
+    "answers": [
+      "10 Kč",
+      "5 Kč",
+      "1 Kč",
+      "15 Kč"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Pokud 5 strojů vyrobí 5 věcí za 5 minut, za jak dlouho vyrobí 100 strojů 100 věcí?",
+    "answers": [
+      "100 minut",
+      "5 minut",
+      "1 minutu",
+      "50 minut"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Lekníny pokryjí jezero za 48 dní a každý den se zdvojnásobí. Kdy je pokrytá polovina?",
+    "answers": [
+      "24. den",
+      "47. den",
+      "12. den",
+      "40. den"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Co zjistíš, když u Shepardových stolů vystřihneš jejich desky a přiložíš je k sobě?",
+    "answers": [
+      "Jedna je delší",
+      "Jsou naprosto stejné",
+      "Jedna je kulatá",
+      "Nedají se porovnat"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Proč se u Shepardových stolů zdá jeden užší a delší?",
+    "answers": [
+      "Je to špatně vytištěné",
+      "Mozek je dekóduje jako trojrozměrné objekty",
+      "Stůl je nakřivo",
+      "Máme rozbité oči"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "U Ebbinghausovy iluze s oranžovými tečkami, která tečka je skutečně větší?",
+    "answers": [
+      "Ta horní",
+      "Ta spodní",
+      "Jsou obě identické",
+      "Žádná, jsou to čtverečky"
+    ],
+    "correct": 2
+  },
+  {
+    "question": "Co znamená pravidlo '3-2-1' u zálohování dat?",
+    "answers": [
+      "3 kopie, na 2 zařízeních, 1 mimo domov",
+      "3 minuty, 2 lidi, 1 heslo",
+      "3 dny, 2 měsíce, 1 rok",
+      "3 mobily, 2 tablety, 1 počítač"
+    ],
+    "correct": 0
+  },
+  {
+    "question": "Která z těchto zkratek označuje počítačem generované triky ve videu?",
+    "answers": [
+      "PDF",
+      "CGI",
+      "WWW",
+      "USB"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Co je to 'visual effects' (VFX) ve filmu nebo videu?",
+    "answers": [
+      "Typ monitoru",
+      "Vizuální efekty přidávané do obrazu",
+      "Značka kamery",
+      "Druh brýlí"
+    ],
+    "correct": 1
+  },
+  {
+    "question": "Co dělají roboti ve videu 'New Robot Can Now Fight Back!', aby vypadali jako skuteční?",
+    "answers": [
+      "Jsou to převlečení lidé",
+      "Pohyby člověka v obleku Xsens byly nahrazeny 3D modelem robota",
+      "Jsou to dálkově ovládané hračky",
+      "Jsou to cvičení psi"
+    ],
+    "correct": 1
+  }
+]
