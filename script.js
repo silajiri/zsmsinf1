@@ -35,22 +35,42 @@ const app = {
 
     loadQuestionSets: async () => {
         try {
-            const response1 = await fetch('data/set1.json');
-            const response2 = await fetch('data/set2.json');
+            // Nejprve načíst seznam setů
+            const setsResponse = await fetch('data/sets.json');
+            if (!setsResponse.ok) {
+                throw new Error('Nepodařilo se načíst sets.json');
+            }
+            const setConfigs = await setsResponse.json();
             
-            if (!response1.ok || !response2.ok) {
-                throw new Error('Nepodařilo se načíst JSON soubory');
+            app.sets = {};
+            
+            for (const config of setConfigs) {
+                const { name, file } = config;
+                try {
+                    const response = await fetch(`data/${file}`);
+                    if (response.ok) {
+                        const data = await response.json();
+                        app.sets[name] = data;
+                        console.log(`✅ ${name} načten z ${file}`);
+                    } else {
+                        console.warn(`⚠ Soubor ${file} nenalezen nebo chyba při načítání`);
+                    }
+                } catch (e) {
+                    console.warn(`⚠ Chyba při načítání ${file}:`, e);
+                }
             }
             
-            app.sets['Test 1'] = await response1.json();
-            app.sets['Test 2'] = await response2.json();
+            if (Object.keys(app.sets).length === 0) {
+                throw new Error('Žádné sady otázek nebyly načteny');
+            }
             
             console.log('✅ Sady otázek načteny');
         } catch (e) {
             console.error('Chyba při načítání sad otázek:', e);
             app.sets = {
                 'Test 1': [],
-                'Test 2': []
+                'Test 2': [],
+                'Test 3': []
             };
         }
     },
