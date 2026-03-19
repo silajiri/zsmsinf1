@@ -1,0 +1,302 @@
+[
+    {
+        "question": "Který z těchto prvků patří do Hardwaru 💻 počítače?",
+        "answers": [
+            "🎮 Počítačová hra",
+            "🖥️ Monitor a myš",
+            "⚙️ Operační systém",
+            "🎨 Kreslení v Malování"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Co je to Software? ⚙️",
+        "answers": [
+            "🔌 Fyzické součástky počítače",
+            "🔌 Kabely k monitoru",
+            "📱 Programy a aplikace v počítači",
+            "📦 Plastový obal počítače"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Kterou ikonu použiješ k vyhledání 🔍 aplikace v počítači?",
+        "answers": [
+            "🗑️ Ikona koše",
+            "🔎 Ikona lupy na hlavním panelu",
+            "🏠 Ikona domečku",
+            "🖨️ Ikona tiskárny"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "K čemu slouží Operační systém (např. Windows)? 🖥️",
+        "answers": [
+            "🔋 K nabíjení baterie",
+            "📄 K tisku na papír",
+            "🚀 K ovládání celého počítače a spouštění aplikací",
+            "🍎 K ukládání svačiny"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Jakou aplikaci použiješ, když chceš napsat jednoduchý text bez obrázků? 📝",
+        "answers": [
+            "🔢 Kalkulačka",
+            "🎨 Malování",
+            "📄 Poznámkový blok",
+            "🤖 VEXcode 123"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "V hodině informatiky jste v Kalkulačce 🔢 počítali příklad 13 x 17. Jaký byl výsledek?",
+        "answers": [
+            "1317",
+            "221",
+            "30",
+            "200"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "K čemu v počítači slouží 'Adresář' (složka)? 📂",
+        "answers": [
+            "🌐 K prohlížení internetu",
+            "📁 K udržování pořádku v souborech",
+            "📧 K psaní e-mailů",
+            "❌ K mazání her"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Jak vytvoříš novou složku na ploše počítače? 🖱️",
+        "answers": [
+            "🖱️ Klikneš pravým tlačítkem a zvolíš Nový -> Složka",
+            "🗑️ Třikrát klikneš na koš",
+            "👋 Zatřeseš myší",
+            "⌨️ Napíšeš 'SLOŽKA' do vyhledávání"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Co přirovnáváme k 'aktovce' 🎒, do které si ukládáš školní věci?",
+        "answers": [
+            "🌐 Internet",
+            "⌨️ Klávesnici",
+            "📁 Složku (adresář)",
+            "🖥️ Monitor"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Proč je důležité práci v Malování nebo Poznámkovém bloku 'Uložit'? 💾",
+        "answers": [
+            "⚖️ Aby byl počítač těžší",
+            "🛡️ Aby se soubor po vypnutí programu nesmazal",
+            "🌈 Aby se změnila barva plochy",
+            "🤷 Není to důležité"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Co je to ALGORITMUS? 📜",
+        "answers": [
+            "🦠 Druh počítačového viru",
+            "🤖 Jméno robota",
+            "📍 Přesný návod krok za krokem",
+            "🖱️ Tlačítko na myši"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Když robotu Emilovi řeknete 'Namaž máslo na chleba' 🍞 bez dalších instrukcí, proč to neudělá správně?",
+        "answers": [
+            "😋 Protože nemá hlad",
+            "🇨🇿 Protože neumí česky",
+            "🔪 Protože neví, že musí máslo nejdřív rozbalit a nabrat nožem",
+            "🛠️ Protože je rozbitý"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Co znamená 'Debugování' v informatice? 🪲",
+        "answers": [
+            "🔧 Hledání a opravování chyb v programu",
+            "🛒 Kupování nového počítače",
+            "🎮 Hraní her s kamarády",
+            "🔌 Vypínání monitoru"
+        ],
+        "correct": 0
+    },
+    {
+        "question": "Při 'programování spolužáka' 👨‍🎓 v hodině jste zjistili, že instrukce musí být:",
+        "answers": [
+            "📏 Co nejdelší",
+            "🎯 Úplně přesné a jasné",
+            "🇬🇧 Napsané v angličtině",
+            "📢 Rychle vykřiknuté"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Robot Emil 🤖 se učil sčítat. Kde se zastaví, když má spočítat 5 + 4?",
+        "answers": [
+            "5️⃣ Na čísle 5",
+            "4️⃣ Na čísle 4",
+            "9️⃣ Na čísle 9",
+            "1️⃣ Na čísle 1"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "V jaké aplikaci programujeme roboty VEX 123? 🤖",
+        "answers": [
+            "📊 Google Tabulky",
+            "💻 VEXcode 123",
+            "🔢 Kalkulačka",
+            "🎨 Malování"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Který blok ve VEXcode 123 odpovídá příkazu 'Zatoč doprava'? ➡️",
+        "answers": [
+            "⬅️ Turn left",
+            "⬆️ Drive forward",
+            "➡️ Turn right",
+            "🛑 Stop driving"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Co dělá blok 'Repeat' 🔁 v programu pro robota?",
+        "answers": [
+            "📴 Vypne robota",
+            "🔄 Opakuje příkazy uvnitř bloku několikrát za sebou",
+            "🔴 Změní barvu robota na červenou",
+            "🗑️ Smaže celý program"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Který blok spustí program po kliknutí na tlačítko Start? 🏁",
+        "answers": [
+            "⏳ Wait 1 second",
+            "⏯️ When started",
+            "🔙 Drive reverse",
+            "🔊 Play sound"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Co znamená anglický příkaz 'Drive reverse'? 🔙",
+        "answers": [
+            "⬆️ Jet dopředu",
+            "🛑 Zastavit",
+            "⬇️ Couvat (jet dozadu)",
+            "↪️ Zatočit doleva"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "V jaké aplikaci pracujeme s buňkami a tabulkami? 📊",
+        "answers": [
+            "📝 Poznámkový blok",
+            "📉 Google Tabulky",
+            "🎨 Malování",
+            "🧱 Minecraft"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "K čemu v tabulkách slouží funkce =SUMA()? 🧮",
+        "answers": [
+            "🖌️ K kreslení grafu",
+            "➕ K sečtení čísel v buňkách",
+            "🔍 K vyhledávání obrázků",
+            "🎨 Ke změně barvy písma"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Co se stane s grafem 📈 v Google Tabulkách, když změníte čísla v tabulce?",
+        "answers": [
+            "🗑️ Graf se sám smaže",
+            "🔄 Graf se automaticky překreslí podle nových dat",
+            "🧊 Graf zůstane stejný a musíte ho udělat znovu",
+            "⚠️ Počítač nahlásí chybu"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Když jste v tabulce počítali lentilky 🍬, co znamenalo, že barva 'vyhrála'?",
+        "answers": [
+            "💖 Že je nejhezčí",
+            "🏆 Že měla v tabulce nejvyšší počet kusů",
+            "🥇 Že byla v tabulce jako první",
+            "🔵 Že byla modrá"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Do kterého řádku v tabulce jste zapisovali své napočítané hodnoty? 🔢",
+        "answers": [
+            "🔴 Řádek 'Barva'",
+            "🔢 Řádek 'Počet [ks]'",
+            "👤 Řádek 'Jméno'",
+            "📝 Řádek 'Poznámka'"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Proč bys neměl/a nikomu dávat své heslo k hernímu účtu? 🔑",
+        "answers": [
+            "🧠 Protože by ho mohl zapomenout",
+            "⏳ Protože se heslo sdílením opotřebuje",
+            "🕵️ Protože by ti mohl někdo účet ukrást a změnit heslo",
+            "📏 Protože je to moc dlouhé slovo"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Co bys měl/a udělat, když ti ve hře cizí člověk 👤 nabízí vzácný předmět za tvé heslo?",
+        "answers": [
+            "📤 Heslo mu hned poslat",
+            "🚫 Heslo nedávat a říct to dospělému",
+            "🌗 Zkusit mu dát jen půlku hesla",
+            "🗣️ Vynadat mu"
+        ],
+        "correct": 1
+    },
+    {
+        "question": "Jak počítač pozná, že jsi to ty, když se přihlašuješ k e-mailu? 🛡️",
+        "answers": [
+            "📷 Vidí tě přes webkameru",
+            "🎙️ Pozná tě podle hlasu",
+            "🆔 Podle tvého jména a správného hesla",
+            "👕 Podle barvy tvého trička"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Co jste sbírali v úkolu na hradě (Bezpečnost na internetu)? 🏰",
+        "answers": [
+            "🍬 Lentilky",
+            "💰 Zlaté mince",
+            "💎 Drahokamy s kódy",
+            "🐲 Pokémony"
+        ],
+        "correct": 2
+    },
+    {
+        "question": "Jak robot VEX 123 v úkolu 'Robotí kalkulačka' oznámil, že dojel na správné číslo? 🔊",
+        "answers": [
+            "🔴 Zablikal červeně",
+            "📢 Vydal zvuk (pípnutí)",
+            "🔄 Zatočil se dokolečka",
+            "📴 Sám se vypnul"
+        ],
+        "correct": 1
+    }
+]
