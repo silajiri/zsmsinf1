@@ -464,6 +464,99 @@ const app = {
         }
         
         container.appendChild(table);
+        
+        // Přidat tabulku s nejčastějšími chybami pro tento set
+        app.renderMistakesTabForSet(filteredResults, container, setName);
+    },
+
+    renderMistakesTabForSet: (results, container, setName) => {
+        // Spočítat nejčastější chyby pouze pro tento set
+        const mistakeCounts = {};
+        
+        results.forEach(result => {
+            if (result.wrongAnswers && result.wrongAnswers.length > 0) {
+                result.wrongAnswers.forEach(wrong => {
+                    const key = wrong.question;
+                    if (!mistakeCounts[key]) {
+                        mistakeCounts[key] = {
+                            question: wrong.question,
+                            count: 0,
+                            examples: []
+                        };
+                    }
+                    mistakeCounts[key].count++;
+                    
+                    // Uložit příklady chybných odpovědí (max 2)
+                    if (mistakeCounts[key].examples.length < 2) {
+                        mistakeCounts[key].examples.push({
+                            chosen: wrong.chosenAnswer,
+                            correct: wrong.correctAnswer
+                        });
+                    }
+                });
+            }
+        });
+        
+        // Převést na pole a seřadit sestupně podle počtu chyb, vzít top 5
+        const sortedMistakes = Object.values(mistakeCounts)
+            .sort((a, b) => b.count - a.count)
+            .slice(0, 5);
+        
+        if (sortedMistakes.length === 0) {
+            return; // Žádné chyby k zobrazení
+        }
+        
+        // Nadpis pro sekci chyb
+        const mistakesTitle = document.createElement('h3');
+        mistakesTitle.textContent = 'Nejčastější chyby v tomto testu';
+        mistakesTitle.style.marginTop = '2rem';
+        mistakesTitle.style.marginBottom = '1rem';
+        container.appendChild(mistakesTitle);
+        
+        const table = document.createElement('table');
+        table.className = 'mistakes-table';
+        table.innerHTML = `
+            <thead>
+                <tr>
+                    <th>Pořadí</th>
+                    <th>Otázka</th>
+                    <th>Počet chyb</th>
+                    <th>Příklady chybných odpovědí</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        `;
+        
+        const tbody = table.querySelector('tbody');
+        
+        let position = 1;
+        sortedMistakes.forEach(mistake => {
+            const row = document.createElement('tr');
+            
+            // Zkrátit otázku pokud je příliš dlouhá
+            const shortQuestion = mistake.question.length > 80 
+                ? mistake.question.substring(0, 80) + '...' 
+                : mistake.question;
+            
+            // Vytvořit příklady chybných odpovědí
+            const examplesHtml = mistake.examples.map(example => 
+                `<div style="margin-bottom: 0.3rem; font-size: 0.9em;">
+                    <strong>Špatně:</strong> ${example.chosen}<br>
+                    <strong>Správně:</strong> ${example.correct}
+                </div>`
+            ).join('');
+            
+            row.innerHTML = `
+                <td>${position}</td>
+                <td title="${mistake.question}">${shortQuestion}</td>
+                <td>${mistake.count}</td>
+                <td>${examplesHtml || 'N/A'}</td>
+            `;
+            tbody.appendChild(row);
+            position++;
+        });
+        
+        container.appendChild(table);
     },
 
     switchLeaderboardTab: (setName) => {
