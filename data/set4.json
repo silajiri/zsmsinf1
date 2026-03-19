@@ -20,16 +20,6 @@
         "correct": 2
     },
     {
-        "question": "Kterou ikonu použiješ k vyhledání 🔍 aplikace v počítači?",
-        "answers": [
-            "🗑️ Ikona koše",
-            "🔎 Ikona lupy na hlavním panelu",
-            "🏠 Ikona domečku",
-            "🖨️ Ikona tiskárny"
-        ],
-        "correct": 1
-    },
-    {
         "question": "K čemu slouží Operační systém (např. Windows)? 🖥️",
         "answers": [
             "🔋 K nabíjení baterie",
@@ -50,7 +40,7 @@
         "correct": 2
     },
     {
-        "question": "V hodině informatiky jste v Kalkulačce 🔢 počítali příklad 13 x 17. Jaký byl výsledek?",
+        "question": "V hodině informatiky jste v Kalkulačce 🔢 počítali příklad 13 x 17. Jaký byl výsledek? Můžeš zase použít kalkulačku:",
         "answers": [
             "1317",
             "221",
@@ -68,16 +58,6 @@
             "❌ K mazání her"
         ],
         "correct": 1
-    },
-    {
-        "question": "Jak vytvoříš novou složku na ploše počítače? 🖱️",
-        "answers": [
-            "🖱️ Klikneš pravým tlačítkem a zvolíš Nový -> Složka",
-            "🗑️ Třikrát klikneš na koš",
-            "👋 Zatřeseš myší",
-            "⌨️ Napíšeš 'SLOŽKA' do vyhledávání"
-        ],
-        "correct": 0
     },
     {
         "question": "Co přirovnáváme k 'aktovce' 🎒, do které si ukládáš školní věci?",
@@ -240,16 +220,6 @@
         "correct": 1
     },
     {
-        "question": "Do kterého řádku v tabulce jste zapisovali své napočítané hodnoty? 🔢",
-        "answers": [
-            "🔴 Řádek 'Barva'",
-            "🔢 Řádek 'Počet [ks]'",
-            "👤 Řádek 'Jméno'",
-            "📝 Řádek 'Poznámka'"
-        ],
-        "correct": 1
-    },
-    {
         "question": "Proč bys neměl/a nikomu dávat své heslo k hernímu účtu? 🔑",
         "answers": [
             "🧠 Protože by ho mohl zapomenout",
@@ -288,15 +258,5 @@
             "🐲 Pokémony"
         ],
         "correct": 2
-    },
-    {
-        "question": "Jak robot VEX 123 v úkolu 'Robotí kalkulačka' oznámil, že dojel na správné číslo? 🔊",
-        "answers": [
-            "🔴 Zablikal červeně",
-            "📢 Vydal zvuk (pípnutí)",
-            "🔄 Zatočil se dokolečka",
-            "📴 Sám se vypnul"
-        ],
-        "correct": 1
     }
 ]
