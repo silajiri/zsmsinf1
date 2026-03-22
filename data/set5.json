@@ -2,301 +2,301 @@
   {
     "question": "Které zvíře si podle pověsti vybojoval Brunclík do svého erbu?",
     "answers": ["Medvěda", "Lva", "Draka", "Orla"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Která řeka protéká hlavním městem Prahou?",
     "answers": ["Labe", "Berounka", "Vltava", "Sázava"],
-    "correct": 3
+    "correct": 2
   },
   {
     "question": "Kde v Praze sídlí prezident republiky, vláda a parlament?",
     "answers": ["V budově Národního muzea", "Na Pražském hradě a v historickém centru", "U Karlova mostu", "Na Petříně"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Jak se jmenuje naše nejstarší a nejvýznamnější univerzita sídlící v Praze?",
     "answers": ["Masarykova univerzita", "České vysoké učení technické", "Karlova univerzita", "Univerzita Palackého"],
-    "correct": 3
+    "correct": 2
   },
   {
     "question": "Ve které části Prahy najdeme sochu svatého Václava a Národní muzeum?",
     "answers": ["Na Václavském náměstí", "Na Staroměstském náměstí", "Na Vyšehradě", "Na Kampě"],
-    "correct": 1
+    "correct": 0
   },
   {
     "question": "Kdy byla zahájena stavba Pražského hradu knížetem Bořivojem?",
     "answers": ["V 7. století", "V 9. století", "Ve 12. století", "Ve 14. století"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Která katedrála se nachází v areálu Pražského hradu?",
     "answers": ["Katedrála sv. Bartoloměje", "Katedrála sv. Víta", "Katedrála sv. Barbory", "Katedrála sv. Petra a Pavla"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Kdo dal ve 14. století postavit nejstarší pražský most přes Vltavu?",
     "answers": ["Karel IV.", "Rudolf II.", "Václav II.", "Přemysl Otakar II."],
-    "correct": 1
+    "correct": 0
   },
   {
     "question": "Na které pražské radnici najdeme slavný astronomický orloj?",
     "answers": ["Na Novoměstské radnici", "Na Staroměstské radnici", "Na Hradčanské radnici", "Na Malostranské radnici"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Podle které slavné věže byla postavena rozhledna na Petříně?",
     "answers": ["Podle věže v Pise", "Podle Eiffelovy věže v Paříži", "Podle Big Benu v Londýně", "Podle Empire State Building"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Jak se jmenuje úrodná nížina ve Středočeském kraji?",
     "answers": ["Dolnomoravský úval", "Polabská nížina", "Dyjsko-svratecký úval", "Ostravská pánev"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "U kterého města se stéká Vltava s Labem?",
     "answers": ["U Kolína", "U Prahy", "U Mělníka", "U Poděbrad"],
-    "correct": 3
+    "correct": 2
   },
   {
     "question": "Které plodiny se díky teplu pěstují v Polabské nížině?",
     "answers": ["Brambory a len", "Pšenice, kukuřice a zelenina", "Oves a žito", "Pouze vinná réva"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Ve které městě sídlí automobilka Škoda Auto?",
     "answers": ["V Kolíně", "V Mladé Boleslavi", "V Plzni", "V Kutné Hoře"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Která automobilka vyrábí vozy u Kolína (v Ovčárech)?",
     "answers": ["Škoda", "Hyundai", "TPCA", "Tatra"],
-    "correct": 3
+    "correct": 2
   },
   {
     "question": "Jaká památka UNESCO je dominantou Kutné Hory?",
     "answers": ["Chrám svatého Víta", "Chrám svaté Barbory", "Rotunda svatého Petra", "Hrad Karlštejn"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Co se ve středověku těžilo v okolí Kutné Hory?",
     "answers": ["Uhlí", "Zlato", "Stříbro", "Železná ruda"],
-    "correct": 3
+    "correct": 2
   },
   {
     "question": "Jak se jmenovaly stříbrné mince ražené v Kutné Hoře?",
     "answers": ["Tolary", "Dukáty", "Pražské groše", "Florény"],
-    "correct": 3
+    "correct": 2
   },
   {
     "question": "Za jakým účelem založil Karel IV. hrad Karlštejn?",
     "answers": ["Jako lovecké sídlo", "Pro uložení korunovačních klenotů", "Jako obranu proti husitům", "Jako vězení"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Která hora ve Středočeském kraji je spojena s pověstí o spících rytířích?",
     "answers": ["Říp", "Blaník", "Sněžka", "Milešovka"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Ve které chráněné krajinné oblasti najdeme Koněpruské jeskyně?",
     "answers": ["Kokořínsko", "Český kras", "Šumava", "Brdy"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Která řeka protéká rekreační oblastí zvanou Posázaví?",
     "answers": ["Vltava", "Berounka", "Sázava", "Labe"],
-    "correct": 3
+    "correct": 2
   },
   {
     "question": "Jak se jmenuje pohoří ležící jihozápadně od Prahy, dříve vojenský prostor?",
     "answers": ["Krušné hory", "Brdy", "Šumava", "Krkonoše"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Které město je krajským městem Jihočeského kraje?",
     "answers": ["Tábor", "České Budějovice", "Písek", "Strakonice"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Jak se jmenuje největší rybník v České republice?",
     "answers": ["Svět", "Rožmberk", "Bezdrev", "Horusický rybník"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Které pohoří tvoří hranici s Německem a Rakouskem na jihu Čech?",
     "answers": ["Orlické hory", "Šumava", "Jeseníky", "Beskydy"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Jak se jmenuje největší přehradní nádrž v ČR, ležící na Šumavě?",
     "answers": ["Orlík", "Lipno", "Slapy", "Vranov"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Které historické město v jižních Čechách je na seznamu UNESCO?",
     "answers": ["Jindřichův Hradec", "Český Krumlov", "Třeboň", "Prachatice"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Které město je proslulé výrobou piva a krajským městem Plzeňského kraje?",
     "answers": ["Klatovy", "Plzeň", "Rokycany", "Domažlice"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Co se vyrábí v plzeňské Škodovce?",
     "answers": ["Automobily", "Lokomotivy, tramvaje a trolejbusy", "Letadla", "Lodě"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Které pohoří najdeme na hranicích Plzeňského kraje s Německem?",
     "answers": ["Krušné hory", "Český les", "Jizerské hory", "Lužické hory"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Který národní park se nachází v Plzeňském a Jihočeském kraji?",
     "answers": ["Podyjí", "Šumava", "České Švýcarsko", "Krkonoše"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Které světoznámé lázeňské město je krajským městem Karlovarského kraje?",
     "answers": ["Mariánské Lázně", "Karlovy Vary", "Františkovy Lázně", "Jáchymov"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Jak se jmenuje uskupení tří lázeňských měst v Karlovarském kraji?",
     "answers": ["Lázeňský kruh", "Západočeský lázeňský trojúhelník", "Lázeňská trojka", "Zlatý trojúhelník"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Jaký produkt je typickým lázeňským suvenýrem z Karlových Varů?",
     "answers": ["Lázeňské oplatky", "Pardubický perník", "Hořické trubičky", "Štramberské uši"],
-    "correct": 1
+    "correct": 0
   },
   {
     "question": "Jak se jmenuje známý bylinný likér vyráběný v Karlových Varech?",
     "answers": ["Fernet", "Becherovka", "Slivovice", "Absint"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Jak se jmenuje nejteplejší pramen v Karlových Varech?",
     "answers": ["Mattoni", "Vřídlo", "Magnesia", "Vincentka"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Jakou teplotu má pramen Vřídlo?",
     "answers": ["37 °C", "50 °C", "72 °C", "100 °C"],
-    "correct": 3
+    "correct": 2
   },
   {
     "question": "Které město je známé léčbou pohybového ústrojí radioaktivní vodou?",
     "answers": ["Cheb", "Jáchymov", "Aš", "Sokolov"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Které město je krajským městem Ústeckého kraje?",
     "answers": ["Most", "Ústí nad Labem", "Teplice", "Děčín"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Co se ve velkém těží v Podkrušnohorské pánvi?",
     "answers": ["Černé uhlí", "Hnědé uhlí", "Zemní plyn", "Ropa"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Jaké pohoří tvoří severní hranici Ústeckého kraje?",
     "answers": ["Krkonoše", "Krušné hory", "Jeseníky", "Beskydy"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Jak se jmenuje národní park v Ústeckém kraji se skalním městem?",
     "answers": ["Podyjí", "České Švýcarsko", "Šumava", "Krkonoše"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Která hora je považována za symbol české státnosti (leží u Roudnice n. L.)?",
     "answers": ["Sněžka", "Říp", "Blaník", "Praděd"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Které město je krajským městem Libereckého kraje?",
     "answers": ["Jablonec nad Nisou", "Liberec", "Česká Lípa", "Semily"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Která dominanta s televizním vysílačem se tyčí nad Libercem?",
     "answers": ["Petřín", "Ještěd", "Praděd", "Černá hora"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Které pohoří se nachází v Libereckém kraji a je známé sklářstvím?",
     "answers": ["Krkonoše", "Jizerské hory", "Orlické hory", "Beskydy"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Které město je krajským městem Královéhradeckého kraje?",
     "answers": ["Trutnov", "Hradec Králové", "Náchod", "Jičín"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Jak se jmenuje nejvyšší pohoří v České republice?",
     "answers": ["Jeseníky", "Krkonoše", "Šumava", "Beskydy"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Jak se jmenuje nejvyšší hora České republiky?",
     "answers": ["Praděd", "Sněžka", "Luční hora", "Plechý"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Která řeka pramení v Krkonoších?",
     "answers": ["Vltava", "Labe", "Odra", "Morava"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Ve kterém městě Královéhradeckého kraje se vyrábějí piana Petrof?",
     "answers": ["V Jičíně", "V Hradci Králové", "V Náchodě", "V Jaroměři"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Které město je krajským městem Pardubického kraje?",
     "answers": ["Chrudim", "Pardubice", "Svitavy", "Ústí nad Orlicí"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Který sladký produkt je symbolem Pardubic?",
     "answers": ["Hořické trubičky", "Pardubický perník", "Štramberské uši", "Lázeňské oplatky"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Který slavný dostih se každoročně koná v Pardubicích?",
     "answers": ["Zlatá přilba", "Velká pardubická", "Barum Rally", "Jizerská padesátka"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Které město je krajským městem kraje Vysočina?",
     "answers": ["Třebíč", "Jihlava", "Pelhřimov", "Havlíčkův Brod"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Jak se jmenuje pohoří procházející krajem Vysočina?",
     "answers": ["Beskydy", "Českomoravská vrchovina", "Jeseníky", "Orlické hory"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Která plodina je typická pro pěstování na Vysočině?",
     "answers": ["Vinná réva", "Brambory", "Kukuřice", "Chmel"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Které město na Vysočině má na seznamu UNESCO židovskou čtvrť a baziliku?",
     "answers": ["Telč", "Třebíč", "Žďár nad Sázavou", "Jihlava"],
-    "correct": 2
+    "correct": 1
   },
   {
     "question": "Ve kterém městě na Vysočině najdeme historické náměstí zapsané v UNESCO?",
     "answers": ["Pelhřimov", "Telč", "Humpolec", "Chotěboř"],
-    "correct": 2
+    "correct": 1
   }
 ]
