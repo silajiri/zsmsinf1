@@ -1,4 +1,5 @@
 [
+  {"name": "Kraje České republiky", "file": "set5.json"},
   {"name": "Internet", "file": "set1.json"},
   {"name": "Bezpečnost", "file": "set2.json"},
   {"name": "Pravda nebo lež?", "file": "set3.json"},

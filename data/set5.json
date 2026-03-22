@@ -1,0 +1,107 @@
+[
+  {
+    "question": "Které zvíře si podle pověsti vybojoval Brunclík do svého erbu?",
+    "answers": ["Medvěda", "Lva", "Draka", "Orla"],
+    "correct": 2
+  },
+  {
+    "question": "Která řeka protéká hlavním městem Prahou?",
+    "answers": ["Labe", "Berounka", "Vltava", "Sázava"],
+    "correct": 3
+  },
+  {
+    "question": "Kde v Praze sídlí prezident republiky, vláda a parlament?",
+    "answers": ["V budově Národního muzea", "Na Pražském hradě a v historickém centru", "U Karlova mostu", "Na Petříně"],
+    "correct": 2
+  },
+  {
+    "question": "Jak se jmenuje naše nejstarší a nejvýznamnější univerzita sídlící v Praze?",
+    "answers": ["Masarykova univerzita", "České vysoké učení technické", "Karlova univerzita", "Univerzita Palackého"],
+    "correct": 3
+  },
+  {
+    "question": "Ve které části Prahy najdeme sochu svatého Václava a Národní muzeum?",
+    "answers": ["Na Václavském náměstí", "Na Staroměstském náměstí", "Na Vyšehradě", "Na Kampě"],
+    "correct": 1
+  },
+  {
+    "question": "Kdy byla zahájena stavba Pražského hradu knížetem Bořivojem?",
+    "answers": ["V 7. století", "V 9. století", "Ve 12. století", "Ve 14. století"],
+    "correct": 2
+  },
+  {
+    "question": "Která katedrála se nachází v areálu Pražského hradu?",
+    "answers": ["Katedrála sv. Bartoloměje", "Katedrála sv. Víta", "Katedrála sv. Barbory", "Katedrála sv. Petra a Pavla"],
+    "correct": 2
+  },
+  {
+    "question": "Kno dal ve 14. století postavit nejstarší pražský most přes Vltavu?",
+    "answers": ["Karel IV.", "Rudolf II.", "Václav II.", "Přemysl Otakar II."],
+    "correct": 1
+  },
+  {
+    "question": "Na které pražské radnici najdeme slavný astronomický orloj?",
+    "answers": ["Na Novoměstské radnici", "Na Staroměstské radnici", "Na Hradčanské radnici", "Na Malostranské radnici"],
+    "correct": 2
+  },
+  {
+    "question": "Podle které slavné věže byla postavena rozhledna na Petříně?",
+    "answers": ["Podle věže v Pise", "Podle Eiffelovy věže v Paříži", "Podle Big Benu v Londýně", "Podle Empire State Building"],
+    "correct": 2
+  },
+  {
+    "question": "Jak se jmenuje úrodná nížina ve Středočeském kraji?",
+    "answers": ["Dolnomoravský úval", "Polabská nížina", "Dyjsko-svratecký úval", "Ostravská pánev"],
+    "correct": 2
+  },
+  {
+    "question": "U kterého města se stéká Vltava s Labem?",
+    "answers": ["U Kolína", "U Prahy", "U Mělníka", "U Poděbrad"],
+    "correct": 3
+  },
+  {
+    "question": "Které plodiny se díky teplu pěstují v Polabské nížině?",
+    "answers": ["Brambory a len", "Pšenice, kukuřice a zelenina", "Oves a žito", "Pouze vinná réva"],
+    "correct": 2
+  },
+  {
+    "question": "Ve kterém městě sídlí automobilka Škoda Auto?",
+    "answers": ["V Kolíně", "V Mladé Boleslavi", "V Plzni", "V Kutné Hoře"],
+    "correct": 2
+  },
+  {
+    "question": "Která automobilka vyrábí vozy u Kolína (v Ovčárech)?",
+    "answers": ["Škoda", "Hyundai", "TPCA", "Tatra"],
+    "correct": 3
+  },
+  {
+    "question": "Jaká památka UNESCO je dominantou Kutné Hory?",
+    "answers": ["Chrám svatého Víta", "Chrám svaté Barbory", "Rotunda svatého Petra", "Hrad Karlštejn"],
+    "correct": 2
+  },
+  {
+    "question": "Co se ve středověku těžilo v okolí Kutné Hory?",
+    "answers": ["Uhlí", "Zlato", "Stříbro", "Železná ruda"],
+    "correct": 3
+  },
+  {
+    "question": "Jak se jmenovaly stříbrné mince ražené v Kutné Hoře?",
+    "answers": ["Tolary", "Dukáty", "Pražské groše", "Florény"],
+    "correct": 3
+  },
+  {
+    "question": "Za jakým účelem založil Karel IV. hrad Karlštejn?",
+    "answers": ["Jako lovecké sídlo", "Pro uložení korunovačních klenotů", "Jako obranu proti husitům", "Jako vězení"],
+    "correct": 2
+  },
+  {
+    "question": "Která hora ve Středočeském kraji je spojena s pověstí o spících rytířích?",
+    "answers": ["Říp", "Blaník", "Sněžka", "Milešovka"],
+    "correct": 2
+  },
+  {
+    "question": "Ve které chráněné krajinné oblasti najdeme Koněpruské jeskyně?",
+    "answers": ["Kokořínsko", "Český kras", "Šumava", "Brdy"],
+    "correct": 2
+  }
+]
