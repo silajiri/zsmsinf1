@@ -1,0 +1,102 @@
+[
+    {
+        "answers": [
+            "Jako schopnost pocítat velmi dlouhé príklady",
+            "Jako schopnost ucit se a adaptovat se na nové situace",
+            "Jako schopnost mít uloženo hodne informací v pameti",
+            "Jako schopnost rychle psát na klávesnici"
+        ],
+        "correct": 1,
+        "question": "Jak lidé nejcasteji definují „inteligenci“?"
+    },
+    {
+        "answers": [
+            "Protože papír neumí mluvit",
+            "Protože neumí vyhrát nad každým",
+            "Protože jen slepe plnil pravidla „KDYŽ – PAK“ a neumel se sám nic nového naucit",
+            "Protože byl vyroben z recyklovaného materiálu"
+        ],
+        "correct": 2,
+        "question": "Proc náš „chytrý papír“ na piškvorky nebyl doopravdy inteligentní?"
+    },
+    {
+        "answers": [
+            "Program následuje presná pravidla (recept), AI se ucí z velkého množství príkladu (dat)",
+            "AI je mnohem dražší než bežný program",
+            "Bežný program funguje jen v pocítaci, AI jen v robotech",
+            "Žádný rozdíl mezi nimi neexistuje"
+        ],
+        "correct": 0,
+        "question": "Jaký je hlavní rozdíl mezi bežným programem a umelou inteligencí?"
+    },
+    {
+        "answers": [
+            "Pouze opravovat chyby v textu",
+            "Vytváret úplne nový obsah, jako jsou obrázky, hudba nebo texty",
+            "Scítat velké tabulky císel",
+            "Vypnout pocítac, když je prehrátý"
+        ],
+        "correct": 1,
+        "question": "Co dokáže takzvaná „Generativní AI“?"
+    },
+    {
+        "answers": [
+            "Jak dlouho trvalo pocítaci obrázek najít",
+            "Kolik lidí se na ten obrázek už dívalo",
+            "Míru jistoty – AI tím ríká, jak moc si je svým odhadem jistá",
+            "Kolik barev pocítac v obrázku našel"
+        ],
+        "correct": 2,
+        "question": "Když AI poznává obrázky (pocítacové videní), co znamenají procenta u výsledku?"
+    },
+    {
+        "answers": [
+            "ANO – protože pocítac pocítá rychleji než clovek",
+            "NE – protože jen plní presná pravidla zadaná clovekem (vzorce)",
+            "MOŽNÁ – záleží na tom, jak je výlet drahý",
+            "ANO – protože Excel vytvorili chytrí lidé"
+        ],
+        "correct": 1,
+        "question": "Rozhodni: Je tabulka v Excelu, která pomocí vzorce spocítá cenu výletu, umelá inteligence?"
+    },
+    {
+        "answers": [
+            "Ucení s ucitelem (Supervised)",
+            "Ucení bez ucitele (Unsupervised)",
+            "Posilované ucení (Reinforcement learning)",
+            "Ucení podle abecedy"
+        ],
+        "correct": 2,
+        "question": "Který typ strojového ucení funguje stylem „pokus-omyl“?"
+    },
+    {
+        "answers": [
+            "Trída (Class)",
+            "Šuplík",
+            "Složka",
+            "Znacka"
+        ],
+        "correct": 0,
+        "question": "Jak v AI ríkáme kategorii, do které stroj rozrazuje veci (napr. jablko, banán)?"
+    },
+    {
+        "answers": [
+            "Rychlejší internet",
+            "Data, která už clovek predem pojmenoval (ozznacckoval)",
+            "Webovou kameru",
+            "Nový monitor"
+        ],
+        "correct": 1,
+        "question": "Co potrebujeme k tomu, aby se model ucil „s ucitelem“ (Supervised learning)?"
+    },
+    {
+        "answers": [
+            "Pocítacové videní",
+            "Analýza nálady (Sentiment analysis)",
+            "Hlasový asistent",
+            "Digitální pravítko"
+        ],
+        "correct": 1,
+        "question": "Jak se jmenuje technologie, která pozná, jestli je recenze na hru veselá nebo smutná?"
+    }
+]
