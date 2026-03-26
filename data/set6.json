@@ -1,102 +1,102 @@
 [
     {
-        "question": "Jak lidé nejčastěji definují „inteligenci“?",
         "answers": [
             "Jako schopnost počítat velmi dlouhé příklady",
             "Jako schopnost učit se a adaptovat se na nové situace",
             "Jako schopnost mít uloženo hodně informací v paměti",
             "Jako schopnost rychle psát na klávesnici"
         ],
-        "correct": 1
+        "correct": 1,
+        "question": "Jak lidé nejčastěji definují „inteligenci“?"
     },
     {
-        "question": "Proč náš „chytrý papír“ na piškvorky nebyl doopravdy inteligentní?",
         "answers": [
             "Protože papír neumí mluvit",
             "Protože neumí vyhrát nad každým",
             "Protože jen slepě plnil pravidla „KDYŽ – PAK“ a neuměl se sám nic nového naučit",
             "Protože byl vyroben z recyklovaného materiálu"
         ],
-        "correct": 2
+        "correct": 2,
+        "question": "Proč náš „chytrý papír“ na piškvorky nebyl doopravdy inteligentní?"
     },
     {
-        "question": "Jaký je hlavní rozdíl mezi běžným programem a umělou inteligencí?",
         "answers": [
             "Program následuje přesná pravidla (recept), AI se učí z velkého množství příkladů (dat)",
             "AI je mnohem dražší než běžný program",
             "Běžný program funguje jen v počítači, AI jen v robotech",
             "Žádný rozdíl mezi nimi neexistuje"
         ],
-        "correct": 0
+        "correct": 0,
+        "question": "Jaký je hlavní rozdíl mezi běžným programem a umělou inteligencí?"
     },
     {
-        "question": "Co dokáže takzvaná „Generativní AI“?",
         "answers": [
             "Pouze opravovat chyby v textu",
             "Vytvářet úplně nový obsah, jako jsou obrázky, hudba nebo texty",
             "Sčítat velké tabulky čísel",
             "Vypnout počítač, když je přehřátý"
         ],
-        "correct": 1
+        "correct": 1,
+        "question": "Co dokáže takzvaná „Generativní AI“?"
     },
     {
-        "question": "Když AI poznává obrázky (počítačové vidění), co znamenají procenta u výsledku?",
         "answers": [
             "Jak dlouho trvalo počítači obrázek najít",
             "Kolik lidí se na ten obrázek už dívalo",
             "Míru jistoty – AI tím říká, jak moc si je svým odhadem jistá",
             "Kolik barev počítač v obrázku našel"
         ],
-        "correct": 2
+        "correct": 2,
+        "question": "Když AI poznává obrázky (počítačové vidění), co znamenají procenta u výsledku?"
     },
     {
-        "question": "Rozhodni: Je tabulka v Excelu, která pomocí vzorce spočítá cenu výletu, umělá inteligence?",
         "answers": [
             "ANO – protože počítač počítá rychleji než člověk",
             "NE – protože jen plní přesná pravidla zadaná člověkem (vzorce)",
             "MOŽNÁ – záleží na tom, jak je výlet drahý",
             "ANO – protože Excel vytvořili chytří lidé"
         ],
-        "correct": 1
+        "correct": 1,
+        "question": "Rozhodni: Je tabulka v Excelu, která pomocí vzorce spočítá cenu výletu, umělá inteligence?"
     },
     {
-        "question": "Který typ strojového učení funguje stylem „pokus-omyl“?",
         "answers": [
             "Učení s učitelem (Supervised)",
             "Učení bez učitele (Unsupervised)",
             "Posilované učení (Reinforcement learning)",
             "Učení podle abecedy"
         ],
-        "correct": 2
+        "correct": 2,
+        "question": "Který typ strojového učení funguje stylem „pokus-omyl“?"
     },
     {
-        "question": "Jak v AI říkáme kategorii, do které stroj rozřazuje věci (např. jablko, banán)?",
         "answers": [
             "Třída (Class)",
             "Šuplík",
             "Složka",
             "Značka"
         ],
-        "correct": 0
+        "correct": 0,
+        "question": "Jak v AI říkáme kategorii, do které stroj rozřazuje věci (např. jablko, banán)?"
     },
     {
-        "question": "Co potřebujeme k tomu, aby se model učil „s učitelem“ (Supervised learning)?",
         "answers": [
             "Rychlejší internet",
             "Data, která už člověk předem pojmenoval (ozznacckoval)",
             "Webovou kameru",
             "Nový monitor"
         ],
-        "correct": 1
+        "correct": 1,
+        "question": "Co potřebujeme k tomu, aby se model učil „s učitelem“ (Supervised learning)?"
     },
     {
-        "question": "Jak se jmenuje technologie, která pozná, jestli je recenze na hru veselá nebo smutná?",
         "answers": [
             "Počítačové vidění",
             "Analýza nálady (Sentiment analysis)",
             "Hlasový asistent",
             "Digitální pravítko"
         ],
-        "correct": 1
+        "correct": 1,
+        "question": "Jak se jmenuje technologie, která pozná, jestli je recenze na hru veselá nebo smutná?"
     }
 ]
