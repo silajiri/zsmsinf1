@@ -1,4 +1,4 @@
-* {
+﻿* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -424,6 +424,7 @@ body > .help-icon {
 
 .leaderboard-tab-pane {
     display: none;
+    overflow-x: auto;
 }
 
 .leaderboard-tab-pane.active {
