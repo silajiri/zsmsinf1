@@ -1,102 +1,102 @@
 [
     {
+        "question": "Jak lidÃ© nejÄastÄ›ji definujÃ­ â€inteligenciâ€œ?",
         "answers": [
-            "Jako schopnost pocítat velmi dlouhé príklady",
-            "Jako schopnost ucit se a adaptovat se na nové situace",
-            "Jako schopnost mít uloeno hodne informací v pameti",
-            "Jako schopnost rychle psát na klávesnici"
+            "Jako schopnost poÄÃ­tat velmi dlouhÃ© pÅ™Ã­klady",
+            "Jako schopnost uÄit se a adaptovat se na novÃ© situace",
+            "Jako schopnost mÃ­t uloÅ¾eno hodnÄ› informacÃ­ v pamÄ›ti",
+            "Jako schopnost rychle psÃ¡t na klÃ¡vesnici"
         ],
-        "correct": 1,
-        "question": "Jak lidé nejcasteji definují „inteligenci“?"
+        "correct": 1
     },
     {
+        "question": "ProÄ nÃ¡Å¡ â€chytrÃ½ papÃ­râ€œ na piÅ¡kvorky nebyl doopravdy inteligentnÃ­?",
         "answers": [
-            "Protoe papír neumí mluvit",
-            "Protoe neumí vyhrát nad kadım",
-            "Protoe jen slepe plnil pravidla „KDY – PAK“ a neumel se sám nic nového naucit",
-            "Protoe byl vyroben z recyklovaného materiálu"
+            "ProtoÅ¾e papÃ­r neumÃ­ mluvit",
+            "ProtoÅ¾e neumÃ­ vyhrÃ¡t nad kaÅ¾dÃ½m",
+            "ProtoÅ¾e jen slepÄ› plnil pravidla â€KDYÅ½ â€“ PAKâ€œ a neumÄ›l se sÃ¡m nic novÃ©ho nauÄit",
+            "ProtoÅ¾e byl vyroben z recyklovanÃ©ho materiÃ¡lu"
         ],
-        "correct": 2,
-        "question": "Proc náš „chytrı papír“ na piškvorky nebyl doopravdy inteligentní?"
+        "correct": 2
     },
     {
+        "question": "JakÃ½ je hlavnÃ­ rozdÃ­l mezi bÄ›Å¾nÃ½m programem a umÄ›lou inteligencÃ­?",
         "answers": [
-            "Program následuje presná pravidla (recept), AI se ucí z velkého mnoství príkladu (dat)",
-            "AI je mnohem draší ne benı program",
-            "Benı program funguje jen v pocítaci, AI jen v robotech",
-            "ádnı rozdíl mezi nimi neexistuje"
+            "Program nÃ¡sleduje pÅ™esnÃ¡ pravidla (recept), AI se uÄÃ­ z velkÃ©ho mnoÅ¾stvÃ­ pÅ™Ã­kladÅ¯ (dat)",
+            "AI je mnohem draÅ¾Å¡Ã­ neÅ¾ bÄ›Å¾nÃ½ program",
+            "BÄ›Å¾nÃ½ program funguje jen v poÄÃ­taÄi, AI jen v robotech",
+            "Å½Ã¡dnÃ½ rozdÃ­l mezi nimi neexistuje"
         ],
-        "correct": 0,
-        "question": "Jakı je hlavní rozdíl mezi benım programem a umelou inteligencí?"
+        "correct": 0
     },
     {
+        "question": "Co dokÃ¡Å¾e takzvanÃ¡ â€GenerativnÃ­ AIâ€œ?",
         "answers": [
             "Pouze opravovat chyby v textu",
-            "Vytváret úplne novı obsah, jako jsou obrázky, hudba nebo texty",
-            "Scítat velké tabulky císel",
-            "Vypnout pocítac, kdy je prehrátı"
+            "VytvÃ¡Å™et ÃºplnÄ› novÃ½ obsah, jako jsou obrÃ¡zky, hudba nebo texty",
+            "SÄÃ­tat velkÃ© tabulky ÄÃ­sel",
+            "Vypnout poÄÃ­taÄ, kdyÅ¾ je pÅ™ehÅ™Ã¡tÃ½"
         ],
-        "correct": 1,
-        "question": "Co dokáe takzvaná „Generativní AI“?"
+        "correct": 1
     },
     {
+        "question": "KdyÅ¾ AI poznÃ¡vÃ¡ obrÃ¡zky (poÄÃ­taÄovÃ© vidÄ›nÃ­), co znamenajÃ­ procenta u vÃ½sledku?",
         "answers": [
-            "Jak dlouho trvalo pocítaci obrázek najít",
-            "Kolik lidí se na ten obrázek u dívalo",
-            "Míru jistoty – AI tím ríká, jak moc si je svım odhadem jistá",
-            "Kolik barev pocítac v obrázku našel"
+            "Jak dlouho trvalo poÄÃ­taÄi obrÃ¡zek najÃ­t",
+            "Kolik lidÃ­ se na ten obrÃ¡zek uÅ¾ dÃ­valo",
+            "MÃ­ru jistoty â€“ AI tÃ­m Å™Ã­kÃ¡, jak moc si je svÃ½m odhadem jistÃ¡",
+            "Kolik barev poÄÃ­taÄ v obrÃ¡zku naÅ¡el"
         ],
-        "correct": 2,
-        "question": "Kdy AI poznává obrázky (pocítacové videní), co znamenají procenta u vısledku?"
+        "correct": 2
     },
     {
+        "question": "Rozhodni: Je tabulka v Excelu, kterÃ¡ pomocÃ­ vzorce spoÄÃ­tÃ¡ cenu vÃ½letu, umÄ›lÃ¡ inteligence?",
         "answers": [
-            "ANO – protoe pocítac pocítá rychleji ne clovek",
-            "NE – protoe jen plní presná pravidla zadaná clovekem (vzorce)",
-            "MONÁ – záleí na tom, jak je vılet drahı",
-            "ANO – protoe Excel vytvorili chytrí lidé"
+            "ANO â€“ protoÅ¾e poÄÃ­taÄ poÄÃ­tÃ¡ rychleji neÅ¾ ÄlovÄ›k",
+            "NE â€“ protoÅ¾e jen plnÃ­ pÅ™esnÃ¡ pravidla zadanÃ¡ ÄlovÄ›kem (vzorce)",
+            "MOÅ½NÃ â€“ zÃ¡leÅ¾Ã­ na tom, jak je vÃ½let drahÃ½",
+            "ANO â€“ protoÅ¾e Excel vytvoÅ™ili chytÅ™Ã­ lidÃ©"
         ],
-        "correct": 1,
-        "question": "Rozhodni: Je tabulka v Excelu, která pomocí vzorce spocítá cenu vıletu, umelá inteligence?"
+        "correct": 1
     },
     {
+        "question": "KterÃ½ typ strojovÃ©ho uÄenÃ­ funguje stylem â€pokus-omylâ€œ?",
         "answers": [
-            "Ucení s ucitelem (Supervised)",
-            "Ucení bez ucitele (Unsupervised)",
-            "Posilované ucení (Reinforcement learning)",
-            "Ucení podle abecedy"
+            "UÄenÃ­ s uÄitelem (Supervised)",
+            "UÄenÃ­ bez uÄitele (Unsupervised)",
+            "PosilovanÃ© uÄenÃ­ (Reinforcement learning)",
+            "UÄenÃ­ podle abecedy"
         ],
-        "correct": 2,
-        "question": "Kterı typ strojového ucení funguje stylem „pokus-omyl“?"
+        "correct": 2
     },
     {
+        "question": "Jak v AI Å™Ã­kÃ¡me kategorii, do kterÃ© stroj rozÅ™azuje vÄ›ci (napÅ™. jablko, banÃ¡n)?",
         "answers": [
-            "Trída (Class)",
-            "Šuplík",
-            "Sloka",
-            "Znacka"
+            "TÅ™Ã­da (Class)",
+            "Å uplÃ­k",
+            "SloÅ¾ka",
+            "ZnaÄka"
         ],
-        "correct": 0,
-        "question": "Jak v AI ríkáme kategorii, do které stroj rozrazuje veci (napr. jablko, banán)?"
+        "correct": 0
     },
     {
+        "question": "Co potÅ™ebujeme k tomu, aby se model uÄil â€s uÄitelemâ€œ (Supervised learning)?",
         "answers": [
-            "Rychlejší internet",
-            "Data, která u clovek predem pojmenoval (ozznacckoval)",
+            "RychlejÅ¡Ã­ internet",
+            "Data, kterÃ¡ uÅ¾ ÄlovÄ›k pÅ™edem pojmenoval (ozznacckoval)",
             "Webovou kameru",
-            "Novı monitor"
+            "NovÃ½ monitor"
         ],
-        "correct": 1,
-        "question": "Co potrebujeme k tomu, aby se model ucil „s ucitelem“ (Supervised learning)?"
+        "correct": 1
     },
     {
+        "question": "Jak se jmenuje technologie, kterÃ¡ poznÃ¡, jestli je recenze na hru veselÃ¡ nebo smutnÃ¡?",
         "answers": [
-            "Pocítacové videní",
-            "Analıza nálady (Sentiment analysis)",
-            "Hlasovı asistent",
-            "Digitální pravítko"
+            "PoÄÃ­taÄovÃ© vidÄ›nÃ­",
+            "AnalÃ½za nÃ¡lady (Sentiment analysis)",
+            "HlasovÃ½ asistent",
+            "DigitÃ¡lnÃ­ pravÃ­tko"
         ],
-        "correct": 1,
-        "question": "Jak se jmenuje technologie, která pozná, jestli je recenze na hru veselá nebo smutná?"
+        "correct": 1
     }
 ]
