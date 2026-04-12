@@ -1,8 +1,30 @@
 [
-  {"name": "Artificial Intelligence", "file": "set6.json"},
-  {"name": "Kraje České republiky", "file": "set5.json"},
-  {"name": "Internet", "file": "set1.json"},
-  {"name": "Bezpečnost", "file": "set2.json"},
-  {"name": "Pravda nebo lež?", "file": "set3.json"},
-  {"name": "Informatika", "file": "set4.json"}
+    {
+        "file": "set6.json",
+        "name": "Artificial Intelligence"
+    },
+    {
+        "file": "set5.json",
+        "name": "Kraje České republiky 1"
+    },
+    {
+        "file": "set7.json",
+        "name": "Kraje České republiky 2"
+    },
+    {
+        "file": "set1.json",
+        "name": "Internet"
+    },
+    {
+        "file": "set2.json",
+        "name": "Bezpečnost"
+    },
+    {
+        "file": "set3.json",
+        "name": "Pravda nebo lež?"
+    },
+    {
+        "file": "set4.json",
+        "name": "Informatika"
+    }
 ]

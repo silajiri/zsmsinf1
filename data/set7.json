@@ -1,0 +1,402 @@
+[
+    {
+        "answers": [
+            "Děčín",
+            "Most",
+            "Ústí nad Labem",
+            "Teplice"
+        ],
+        "correct": 2,
+        "question": "Jaké je krajské město Ústeckého kraje?"
+    },
+    {
+        "answers": [
+            "Krkonoše",
+            "Krušné hory",
+            "Orlické hory",
+            "Jizerské hory"
+        ],
+        "correct": 1,
+        "question": "Které pohoří tvoří hranici Ústeckého kraje s Německem?"
+    },
+    {
+        "answers": [
+            "Vltava",
+            "Odra",
+            "Labe",
+            "Jizera"
+        ],
+        "correct": 2,
+        "question": "Která velká řeka protéká středem Ústeckého kraje?"
+    },
+    {
+        "answers": [
+            "Vltava",
+            "Labe",
+            "Ohře",
+            "Morava"
+        ],
+        "correct": 1,
+        "question": "Která naše významná řeka pramení v pohoří Krkonoše?"
+    },
+    {
+        "answers": [
+            "Děčín a Litoměřice",
+            "Liberec a Jablonec",
+            "Most a Chomutov",
+            "Hradec Králové a Trutnov"
+        ],
+        "correct": 2,
+        "question": "U kterých měst v Ústeckém kraji jsou největší zásoby hnědého uhlí?"
+    },
+    {
+        "answers": [
+            "Děčín",
+            "Most",
+            "Teplice",
+            "Chomutov"
+        ],
+        "correct": 0,
+        "question": "Ve kterém městě se nachází významný říční přístav na Labi?"
+    },
+    {
+        "answers": [
+            "Panská skála",
+            "Pravčická brána",
+            "Trosky",
+            "Adršpašská brána"
+        ],
+        "correct": 1,
+        "question": "Jak se jmenuje známá skalní brána v NP České Švýcarsko?"
+    },
+    {
+        "answers": [
+            "Říp",
+            "Sněžka",
+            "Milešovka",
+            "Ještěd"
+        ],
+        "correct": 2,
+        "question": "Která hora v Českém středohoří je nejvyšším vrcholem tohoto pohoří?"
+    },
+    {
+        "answers": [
+            "Brambory a oves",
+            "Pšenice a kukuřice",
+            "Ovoce, zelenina a chmel",
+            "Len a řepka"
+        ],
+        "correct": 2,
+        "question": "Co se pěstuje v úrodné oblasti v okolí Litoměřic?"
+    },
+    {
+        "answers": [
+            "Dobrošov",
+            "Terezín",
+            "Kost",
+            "Střekov"
+        ],
+        "correct": 1,
+        "question": "Která pevnost u Litoměřic sloužila za 2. světové války jako koncentrační tábor?"
+    },
+    {
+        "answers": [
+            "Jablonec nad Nisou",
+            "Česká Lípa",
+            "Liberec",
+            "Turnov"
+        ],
+        "correct": 2,
+        "question": "Jaké je krajské město Libereckého kraje?"
+    },
+    {
+        "answers": [
+            "Lužické hory",
+            "Jizerské hory",
+            "Krkonoše",
+            "Orlické hory"
+        ],
+        "correct": 3,
+        "question": "Které pohoří nezasahuje do Libereckého kraje?"
+    },
+    {
+        "answers": [
+            "Sněžka",
+            "Milešovka",
+            "Ještěd",
+            "Říp"
+        ],
+        "correct": 2,
+        "question": "Jak se jmenuje nejvýznamnější vrchol Libereckého kraje s televizním vysílačem?"
+    },
+    {
+        "answers": [
+            "Pravčická brána",
+            "Panská skála",
+            "Prachovské skály",
+            "Sněžka"
+        ],
+        "correct": 1,
+        "question": "Který přírodní útvar u Kamenického Šenova připomíná varhany?"
+    },
+    {
+        "answers": [
+            "Těžba uhlí",
+            "Výroba skla a bižuterie",
+            "Chemický průmysl",
+            "Výroba klavírů"
+        ],
+        "correct": 1,
+        "question": "Který průmysl je typický pro okolí měst Nový Bor a Jablonec nad Nisou?"
+    },
+    {
+        "answers": [
+            "Labe",
+            "Jizera",
+            "Lužická Nisa",
+            "Metuje"
+        ],
+        "correct": 2,
+        "question": "Která řeka protéká Libercem?"
+    },
+    {
+        "answers": [
+            "Liberec",
+            "Ústí nad Labem",
+            "Hradec Králové",
+            "Děčín"
+        ],
+        "correct": 2,
+        "question": "V kterém krajském městě je rozvinut strojírenský průmysl (např. výroba motorů)?"
+    },
+    {
+        "answers": [
+            "Bezděz",
+            "Frýdlant",
+            "Trosky",
+            "Kost"
+        ],
+        "correct": 2,
+        "question": "Jak se jmenuje známá zřícenina hradu v Českém ráji se dvěma věžemi?"
+    },
+    {
+        "answers": [
+            "Milešovka",
+            "Říp",
+            "Sněžka",
+            "Ještěd"
+        ],
+        "correct": 1,
+        "question": "Která hora sopečného původu je podle pověsti místem, kam vystoupil praotec Čech?"
+    },
+    {
+        "answers": [
+            "V severní části Ústeckého kraje",
+            "V jižní části Libereckého kraje",
+            "Na východě Královéhradeckého kraje",
+            "V západní části Ústeckého kraje"
+        ],
+        "correct": 0,
+        "question": "V které části České republiky se nachází národní park České Švýcarsko?"
+    },
+    {
+        "answers": [
+            "Trutnov",
+            "Náchod",
+            "Hradec Králové",
+            "Jičín"
+        ],
+        "correct": 2,
+        "question": "Jaké je krajské město Královéhradeckého kraje?"
+    },
+    {
+        "answers": [
+            "Slovensko",
+            "Německo",
+            "Polsko",
+            "Rakousko"
+        ],
+        "correct": 2,
+        "question": "S kterým státem sousedí Královéhradecký kraj na severu?"
+    },
+    {
+        "answers": [
+            "Milešovka",
+            "Ještěd",
+            "Sněžka",
+            "Praděd"
+        ],
+        "correct": 2,
+        "question": "Jak se jmenuje nejvyšší hora České republiky?"
+    },
+    {
+        "answers": [
+            "Krušné hory",
+            "Orlické hory",
+            "Šumava",
+            "Lužické hory"
+        ],
+        "correct": 1,
+        "question": "Které pohoří se rozkládá na východě Královéhradeckého kraje?"
+    },
+    {
+        "answers": [
+            "Polabská nížina",
+            "Dolnomoravský úval",
+            "Třeboňská pánev",
+            "Haná"
+        ],
+        "correct": 0,
+        "question": "Jak se nazývá úrodná nížina na jihu Královéhradeckého kraje?"
+    },
+    {
+        "answers": [
+            "Labe a Vltava",
+            "Labe a Orlice",
+            "Labe a Ohře",
+            "Jizera a Nisa"
+        ],
+        "correct": 1,
+        "question": "Soutok kterých dvou řek se nachází v Hradci Králové?"
+    },
+    {
+        "answers": [
+            "Auta",
+            "Klavíry",
+            "Sklo",
+            "Papír"
+        ],
+        "correct": 1,
+        "question": "Co se vyrábí v továrně Petrof v Hradci Králové?"
+    },
+    {
+        "answers": [
+            "České Švýcarsko",
+            "Adršpašsko-teplické skály",
+            "Panská skála",
+            "Pravčická brána"
+        ],
+        "correct": 1,
+        "question": "Které skalní město se nachází v Královéhradeckém kraji?"
+    },
+    {
+        "answers": [
+            "Liberec",
+            "Ústí nad Labem",
+            "Dvůr Králové nad Labem",
+            "Hradec Králové"
+        ],
+        "correct": 2,
+        "question": "Ve kterém městě najdeme zoologickou zahradu se safari?"
+    },
+    {
+        "answers": [
+            "Mumlavský vodopád",
+            "Pančavský vodopád",
+            "Labský vodopád",
+            "Adršpašský vodopád"
+        ],
+        "correct": 1,
+        "question": "Jak se jmenuje nejvyšší vodopád v České republice?"
+    },
+    {
+        "answers": [
+            "Jizerské hory",
+            "Krkonoše",
+            "Orlické hory",
+            "Krušné hory"
+        ],
+        "correct": 1,
+        "question": "Které hory jsou nejvyšším pohořím České republiky?"
+    },
+    {
+        "answers": [
+            "Liberec",
+            "Most",
+            "Louny",
+            "Trutnov"
+        ],
+        "correct": 2,
+        "question": "Které město leží na řece Ohři?"
+    },
+    {
+        "answers": [
+            "Střekov",
+            "Kost",
+            "Bezděz",
+            "Sychrov"
+        ],
+        "correct": 1,
+        "question": "Který hrad se nachází v Českém ráji (na rozhraní Libereckého a Královéhradeckého kraje)?"
+    },
+    {
+        "answers": [
+            "Ohře",
+            "Jizera",
+            "Metuje",
+            "Orlice"
+        ],
+        "correct": 1,
+        "question": "Která řeka pramení v horách Libereckého kraje?"
+    },
+    {
+        "answers": [
+            "Nový Bor",
+            "Jablonec nad Nisou",
+            "Hradec Králové",
+            "Ústí nad Labem"
+        ],
+        "correct": 1,
+        "question": "Které město je známé výrobou bižuterie?"
+    },
+    {
+        "answers": [
+            "Jizerské hory",
+            "Krkonoše",
+            "Orlické hory",
+            "Lužické hory"
+        ],
+        "correct": 1,
+        "question": "V kterém pohoří leží město Špindlerův Mlýn?"
+    },
+    {
+        "answers": [
+            "Ohře",
+            "Ploučnice",
+            "Labe",
+            "Nisa"
+        ],
+        "correct": 2,
+        "question": "Která řeka protéká městem Děčín?"
+    },
+    {
+        "answers": [
+            "Krušné hory",
+            "České středohoří",
+            "Lužické hory",
+            "Krkonoše"
+        ],
+        "correct": 1,
+        "question": "Jak se jmenuje pohoří uprostřed Ústeckého kraje?"
+    },
+    {
+        "answers": [
+            "Ohře",
+            "Bílina",
+            "Jizera",
+            "Vltava"
+        ],
+        "correct": 1,
+        "question": "Která řeka se vlévá do Labe v Ústí nad Labem?"
+    },
+    {
+        "answers": [
+            "Terezín",
+            "Dobrošov",
+            "Kost",
+            "Bezděz"
+        ],
+        "correct": 1,
+        "question": "Jak se jmenuje známá vojenská pevnost nedaleko Náchoda?"
+    }
+]
